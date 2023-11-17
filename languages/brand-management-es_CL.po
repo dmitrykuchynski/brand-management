@@ -1,0 +1,312 @@
+# Copyright (C) 2022
+# This file is distributed under the same license as the Brand Management plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Brand Management 2.2.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/brand-management\n"
+"POT-Creation-Date: 2022-01-13T10:41:59+03:00\n"
+"PO-Revision-Date: 2023-02-10 11:18+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Chile)\n"
+"Language: es_CL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: brand-management\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Poedit-Basepath: ../../plugins/brand-management\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. Plugin Name of the plugin
+msgid "Brand Management"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Brand Management plugin which you can add and manage brand via shortcode or "
+"filter. The Brand Management plugin requires active <a href='https://www."
+"advancedcustomfields.com/' target='_blank'>Advanced Custom Fields Pro</a>."
+msgstr ""
+
+#: includes/shortcodes/class-brand-shortcode.php:38
+msgctxt "brand-shortcode"
+msgid "Claim Offer"
+msgstr "Reclamar Bono"
+
+#: includes/shortcodes/class-brand-shortcode.php:51
+#: includes/shortcodes/class-brand-shortcode.php:53
+#| msgid "Codes Claimed"
+msgctxt "brand-shortcode"
+msgid "Codes claimed"
+msgstr "Códigos reclamados"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:242
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:244
+msgctxt "campaign-full-width-shortcode"
+msgid "Codes claimed"
+msgstr "Códigos reclamados"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:262
+msgctxt "campaign-full-width-shortcode"
+msgid "Copied"
+msgstr "Copiado"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:271
+#| msgid "All"
+msgctxt "campaign-full-width-shortcode"
+msgid "Copy"
+msgstr "Сopiar"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:84
+msgctxt "campaign-full-width-shortcode"
+msgid "Date Posted"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:130
+msgctxt "campaign-full-width-shortcode"
+msgid "h"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:128
+msgctxt "campaign-full-width-shortcode"
+msgid "m"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:278
+msgctxt "campaign-full-width-shortcode"
+msgid "NO CODE REQUIRED"
+msgstr "No se necesita código"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:196
+msgctxt "campaign-full-width-shortcode"
+msgid "Review"
+msgstr "Reseña"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:229
+msgctxt "campaign-full-width-shortcode"
+msgid "Show % more offers +"
+msgstr "Ver más ofertas"
+
+#: includes/shortcodes/class-campaign-shortcode.php:869
+msgctxt "campaign-management"
+msgid "Best Rated"
+msgstr "mejor calificado"
+
+#: includes/shortcodes/class-campaign-shortcode.php:286
+msgctxt "campaign-management"
+msgid "Close Learn More"
+msgstr "Cerrar Más información"
+
+#: includes/shortcodes/class-campaign-shortcode.php:285
+msgctxt "campaign-management"
+msgid "Learn More"
+msgstr "Aprende más"
+
+#: includes/shortcodes/class-campaign-shortcode.php:870
+msgctxt "campaign-management"
+msgid "Newest"
+msgstr "El más nuevo"
+
+#: includes/shortcodes/class-campaign-shortcode.php:868
+msgctxt "campaign-management"
+msgid "Sort By"
+msgstr "Ordenar por"
+
+#: includes/shortcodes/class-campaign-shortcode.php:619
+#: includes/shortcodes/class-campaign-shortcode.php:641
+msgctxt "campaign-shortcode"
+msgid "All"
+msgstr "Todos"
+
+#: includes/shortcodes/class-campaign-shortcode.php:698
+msgctxt "campaign-shortcode"
+msgid "Claim Bonus"
+msgstr "Reclamar Bono"
+
+#: includes/shortcodes/class-campaign-shortcode.php:183
+msgctxt "campaign-shortcode"
+msgid "Close Learn More"
+msgstr "Cerrar Más información"
+
+#: includes/shortcodes/class-campaign-shortcode.php:786
+#: includes/shortcodes/class-campaign-shortcode.php:788
+msgctxt "campaign-shortcode"
+msgid "Codes claimed"
+msgstr "Códigos reclamados"
+
+#: includes/shortcodes/class-campaign-shortcode.php:738
+msgctxt "campaign-shortcode"
+msgid "Copied"
+msgstr "Copiado"
+
+#: includes/shortcodes/class-campaign-shortcode.php:746
+msgctxt "campaign-shortcode"
+msgid "Copy"
+msgstr "Сopiar"
+
+#: includes/shortcodes/class-campaign-shortcode.php:386
+#: includes/shortcodes/class-campaign-shortcode.php:394
+msgctxt "campaign-shortcode"
+msgid "Deposit Method"
+msgstr "Método de depósito"
+
+#: includes/shortcodes/class-campaign-shortcode.php:467
+msgctxt "campaign-shortcode"
+msgid "Founded"
+msgstr "Fundado"
+
+#: includes/shortcodes/class-campaign-shortcode.php:436
+#: includes/shortcodes/class-campaign-shortcode.php:445
+msgctxt "campaign-shortcode"
+msgid "Gallery"
+msgstr "Galería"
+
+#: includes/shortcodes/class-campaign-shortcode.php:474
+msgctxt "campaign-shortcode"
+msgid "Headquarters"
+msgstr "Sede"
+
+#: includes/shortcodes/class-campaign-shortcode.php:182
+msgctxt "campaign-shortcode"
+msgid "Learn More"
+msgstr "Aprende más"
+
+#: includes/shortcodes/class-campaign-shortcode.php:411
+#: includes/shortcodes/class-campaign-shortcode.php:413
+msgctxt "campaign-shortcode"
+msgid "License No."
+msgstr "Licencia n.º"
+
+#: includes/shortcodes/class-campaign-shortcode.php:371
+msgctxt "campaign-shortcode"
+msgid "Min Deposit"
+msgstr "Depósito mínimo"
+
+#: includes/shortcodes/class-campaign-shortcode.php:613
+#| msgid "More Filter"
+msgctxt "campaign-shortcode"
+msgid "More Filters"
+msgstr "Más filtro"
+
+#: includes/shortcodes/class-campaign-shortcode.php:752
+msgctxt "campaign-shortcode"
+msgid "NO CODE REQUIRED"
+msgstr "No se necesita código"
+
+#: includes/shortcodes/class-campaign-shortcode.php:460
+msgctxt "campaign-shortcode"
+msgid "Owner"
+msgstr "Dueño"
+
+#: includes/shortcodes/class-campaign-shortcode.php:400
+msgctxt "campaign-shortcode"
+msgid "Regulated By"
+msgstr "Regulada por"
+
+#: includes/shortcodes/class-campaign-shortcode.php:720
+#| msgid "Read review"
+msgctxt "campaign-shortcode"
+msgid "Review"
+msgstr "Reseña"
+
+#: includes/shortcodes/class-campaign-shortcode.php:199
+msgctxt "campaign-shortcode"
+msgid "Show %number% More Offers"
+msgstr "Mostrar %number% ofertas más"
+
+#: includes/shortcodes/class-campaign-shortcode.php:758
+msgctxt "campaign-shortcode"
+msgid "Use bonus code"
+msgstr "Usa el código"
+
+#: includes/shortcodes/class-campaign-shortcode.php:453
+msgctxt "campaign-shortcode"
+msgid "Website"
+msgstr "Sitio web"
+
+#: includes/shortcodes/class-campaign-shortcode.php:421
+msgctxt "campaign-shortcode-details-section"
+msgid "Learn More"
+msgstr "Aprende más"
+
+#: includes/shortcodes/class-campaign-shortcode.php:102
+msgctxt "campaign-shortcode-show-all"
+msgid "Claim Offer"
+msgstr "Reclamar Bono"
+
+#: includes/shortcodes/class-campaign-shortcode.php:109
+msgctxt "campaign-shortcode-show-all"
+msgid "Show All (%number%+)"
+msgstr "Ver más ofertas"
+
+#: includes/shortcodes/class-brand-comparison-table-shortcode.php:44
+#: includes/shortcodes/class-brand-comparison-table-shortcode.php:98
+msgctxt "comparison-table-shortcode"
+msgid "Rating"
+msgstr "Clasificación"
+
+#: includes/shortcodes/class-brand-comparison-table-shortcode.php:218
+msgctxt "comparison-table-shortcode"
+msgid "Select Bookmaker"
+msgstr "Seleccione una casa de apuestas"
+
+#: includes/shortcodes/class-brand-comparison-table-shortcode.php:36
+#| msgid "Visit now"
+msgctxt "comparison-table-shortcode"
+msgid "Visit Now"
+msgstr "Reclamar Bono"
+
+#: public/class-brand-management-public.php:77
+msgctxt "likes-ajax-handler"
+msgid "Incorrect request."
+msgstr ""
+
+#: public/class-brand-management-public.php:90
+#: public/class-brand-management-public.php:156
+#| msgid "You have already voted"
+msgctxt "likes-ajax-handler"
+msgid "You have already voted."
+msgstr "Usted ya ha votado"
+
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:100
+msgctxt "popup-offers-shortcode"
+msgid " Review"
+msgstr "Reseña"
+
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:127
+msgctxt "popup-offers-shortcode"
+msgid "Claim Bonus"
+msgstr "Reclamar Bono"
+
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:131
+msgctxt "popup-offers-shortcode"
+msgid "Copied"
+msgstr "Copiado"
+
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:132
+msgctxt "popup-offers-shortcode"
+msgid "Copy"
+msgstr "Сopiar"
+
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:115
+msgctxt "popup-offers-shortcode"
+msgid "NO CODE REQUIRED"
+msgstr "No se necesita código"
+
+#: includes/shortcodes/class-recommended-offers-widget-shortcode.php:65
+#: includes/shortcodes/class-sidebar-shortcode.php:87
+msgctxt "recommended-offers-shortcode"
+msgid " Review"
+msgstr "Reseña"
+
+#: includes/shortcodes/class-sidebar-shortcode.php:108
+msgctxt "sidebar-shortcode"
+msgid "Claim Bonus"
+msgstr "Reclamar Bono"
+
+#: includes/shortcodes/class-sidebar-shortcode.php:116
+msgctxt "sidebar-shortcode"
+msgid "Visit Site"
+msgstr "Reclamar Bono"

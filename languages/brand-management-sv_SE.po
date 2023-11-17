@@ -1,0 +1,434 @@
+# Copyright (C) 2022
+# This file is distributed under the same license as the Brand Management plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Brand Management 2.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/brand-management\n"
+"Last-Translator: \n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-01-13T10:41:59+03:00\n"
+"PO-Revision-Date: 2022-05-20 14:43+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: brand-management\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3"
+
+#: includes/shortcodes/class-bet-offer-shortcode.php:97
+msgctxt "bet-offer-shortcode"
+msgid "300+ Free Bets, Reviews &amp; Promo Codes"
+msgstr ""
+
+#: includes/shortcodes/class-bet-offer-shortcode.php:86
+msgctxt "bet-offer-shortcode"
+msgid "Claim Offer"
+msgstr "Hämta Bonus"
+
+#: includes/shortcodes/class-bet-offer-shortcode.php:102
+msgctxt "bet-offer-shortcode"
+msgid "Offers"
+msgstr "Erbjudanden"
+
+#. Plugin Name of the plugin
+msgid "Brand Management"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Brand Management plugin which you can add and manage brand via shortcode or "
+"filter. The Brand Management plugin requires active <a href='https://www."
+"advancedcustomfields.com/' target='_blank'>Advanced Custom Fields Pro</a>."
+msgstr ""
+
+#: includes/shortcodes/class-brand-shortcode.php:165
+#: includes/shortcodes/class-brand-shortcode.php:346
+msgctxt "brand-shortcode"
+msgid "Claim Offer"
+msgstr "Hämta Bonus"
+
+#: includes/shortcodes/class-brand-shortcode.php:73
+#: includes/shortcodes/class-brand-shortcode.php:75
+msgctxt "brand-shortcode"
+msgid "Codes Claimed"
+msgstr "Bonusar hämtade"
+
+#: includes/shortcodes/class-brand-shortcode.php:107
+msgctxt "brand-shortcode"
+msgid "Copied"
+msgstr "Kopiera"
+
+#: includes/shortcodes/class-brand-shortcode.php:216
+msgctxt "brand-shortcode"
+msgid "Deposit Method"
+msgstr "Betalningsmetoder"
+
+#: includes/shortcodes/class-brand-shortcode.php:260
+msgctxt "brand-shortcode"
+msgid "Founded"
+msgstr "Grundades"
+
+#: includes/shortcodes/class-brand-shortcode.php:238
+msgctxt "brand-shortcode"
+msgid "Gallery"
+msgstr "Bilder"
+
+#: includes/shortcodes/class-brand-shortcode.php:267
+msgctxt "brand-shortcode"
+msgid "Headquarters"
+msgstr "Kontor"
+
+#: includes/shortcodes/class-brand-shortcode.php:198
+msgctxt "brand-shortcode"
+msgid "Min Deposit"
+msgstr "Minsta Insättning"
+
+#: includes/shortcodes/class-brand-shortcode.php:166
+msgctxt "brand-shortcode"
+msgid "More Information"
+msgstr "Läs mer"
+
+#: includes/shortcodes/class-brand-shortcode.php:253
+msgctxt "brand-shortcode"
+msgid "Owner"
+msgstr "Ägare"
+
+#: includes/shortcodes/class-brand-shortcode.php:132
+msgctxt "brand-shortcode"
+msgid "Review"
+msgstr "Recensera"
+
+#: includes/shortcodes/class-brand-shortcode.php:167
+msgctxt "brand-shortcode"
+msgid "Show Less"
+msgstr "Stäng"
+
+#: includes/shortcodes/class-brand-shortcode.php:246
+msgctxt "brand-shortcode"
+msgid "Website"
+msgstr "Hemsida"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:94
+msgctxt "campaign-full-width-shortcode"
+msgid "All"
+msgstr "Alla"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:27
+msgctxt "campaign-full-width-shortcode"
+msgid "Claim Bonus"
+msgstr "Hämta Bonus"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:96
+msgctxt "campaign-full-width-shortcode"
+msgid "Close Filter"
+msgstr "Stäng Filter"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:256
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:258
+msgctxt "campaign-full-width-shortcode"
+msgid "Codes claimed"
+msgstr "Bonusar hämtade"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:246
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:127
+msgctxt "campaign-full-width-shortcode"
+msgid "Copied"
+msgstr "Kopiera"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:326
+msgctxt "campaign-full-width-shortcode"
+msgid "Date Posted"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:299
+msgctxt "campaign-full-width-shortcode"
+msgid "h"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:297
+msgctxt "campaign-full-width-shortcode"
+msgid "m"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:95
+msgctxt "campaign-full-width-shortcode"
+msgid "More Filter"
+msgstr "Fler Filter"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:323
+msgctxt "campaign-full-width-shortcode"
+msgid "Our score"
+msgstr "Vår poäng"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:226
+msgctxt "campaign-full-width-shortcode"
+msgid "Review"
+msgstr "Recensera"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:341
+msgctxt "campaign-full-width-shortcode"
+msgid "Show % more offers +"
+msgstr "Visa fler erbjudanden"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:26
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:23
+msgctxt "campaign-management"
+msgid "All"
+msgstr "Alla"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:405
+#: includes/shortcodes/class-campaign-shortcode.php:619
+msgctxt "campaign-management"
+msgid "Best Rated"
+msgstr "Högst Rankade"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:28
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:25
+msgctxt "campaign-management"
+msgid "Close Filter"
+msgstr "Stäng Filter"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:155
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-shortcode.php:101
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:125
+msgctxt "campaign-management"
+msgid "Close Learn More"
+msgstr "Stäng"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:154
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-shortcode.php:100
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:124
+msgctxt "campaign-management"
+msgid "Learn More"
+msgstr "Läs mer"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:27
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:24
+msgctxt "campaign-management"
+msgid "More Filter"
+msgstr "Fler Filter"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:406
+#: includes/shortcodes/class-campaign-shortcode.php:620
+msgctxt "campaign-management"
+msgid "Newest"
+msgstr "Nyaste"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:153
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-shortcode.php:99
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:123
+msgctxt "campaign-management"
+msgid "Our Score"
+msgstr "Vår poäng"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:14
+#| msgid "Show more offers"
+msgctxt "campaign-management"
+msgid "Show %number% More Offers"
+msgstr "Visa ytterligare %number% erbjudanden"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:404
+#: includes/shortcodes/class-campaign-shortcode.php:618
+msgctxt "campaign-management"
+msgid "Sort By"
+msgstr "Sortera efter.."
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:49
+msgctxt "campaign-shortcode"
+msgid "All"
+msgstr "Alla"
+
+#: includes/shortcodes/class-campaign-shortcode.php:384
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:152
+#: includes/shortcodes/class-single-offer-shortcode.php:66
+msgctxt "campaign-shortcode"
+msgid "Claim Bonus"
+msgstr "Hämta Bonus"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-no-empty-show-shortcode.php:72
+msgctxt "campaign-shortcode"
+msgid "Claim Offer"
+msgstr "Hämta Bonus"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:51
+msgctxt "campaign-shortcode"
+msgid "Close Filter"
+msgstr "Stäng Filter"
+
+#: includes/shortcodes/class-single-offer-shortcode.php:73
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:167
+msgctxt "campaign-shortcode"
+msgid "Close Learn More"
+msgstr "Stäng"
+
+#: includes/shortcodes/class-campaign-shortcode.php:454
+#: includes/shortcodes/class-campaign-shortcode.php:456
+msgctxt "campaign-shortcode"
+msgid "Codes claimed"
+msgstr "Bonusar hämtade"
+
+#: includes/shortcodes/class-campaign-shortcode.php:441
+#: includes/shortcodes/class-single-offer-shortcode.php:309
+msgctxt "campaign-shortcode"
+msgid "Copied"
+msgstr "Kopiera"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:248
+#: includes/shortcodes/class-campaign-shortcode.php:441
+msgctxt "campaign-shortcode"
+msgid "Copy"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-shortcode.php:107
+#: includes/shortcodes/class-campaign-shortcode.php:113
+#: includes/shortcodes/class-single-offer-shortcode.php:105
+msgctxt "campaign-shortcode"
+msgid "Deposit Method"
+msgstr "Betalningsmetoder"
+
+#: includes/shortcodes/class-campaign-shortcode.php:184
+#: includes/shortcodes/class-single-offer-shortcode.php:164
+msgctxt "campaign-shortcode"
+msgid "Founded"
+msgstr "Grundades"
+
+#: includes/shortcodes/class-campaign-shortcode.php:154
+#: includes/shortcodes/class-campaign-shortcode.php:162
+#: includes/shortcodes/class-single-offer-shortcode.php:142
+msgctxt "campaign-shortcode"
+msgid "Gallery"
+msgstr "Bilder"
+
+#: includes/shortcodes/class-campaign-shortcode.php:191
+#: includes/shortcodes/class-single-offer-shortcode.php:171
+msgctxt "campaign-shortcode"
+msgid "Headquarters"
+msgstr "Kontor"
+
+#: includes/shortcodes/class-campaign-shortcode.php:140
+#: includes/shortcodes/class-single-offer-shortcode.php:72
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:166
+msgctxt "campaign-shortcode"
+msgid "Learn More"
+msgstr "Läs mer"
+
+#: includes/shortcodes/class-campaign-shortcode.php:130
+#: includes/shortcodes/class-campaign-shortcode.php:132
+msgctxt "campaign-shortcode"
+msgid "License No."
+msgstr "Licensnummer"
+
+#: includes/shortcodes/class-campaign-shortcode.php:94
+#: includes/shortcodes/class-single-offer-shortcode.php:87
+msgctxt "campaign-shortcode"
+msgid "Min Deposit"
+msgstr "Minsta Insättning"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:143
+#: includes/shortcodes/class-campaign-shortcode.php:269
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:50
+msgctxt "campaign-shortcode"
+msgid "More Filter"
+msgstr "Fler Filter"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:250
+#: includes/shortcodes/class-campaign-shortcode.php:443
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:131
+#: includes/shortcodes/class-single-offer-shortcode.php:311
+msgctxt "campaign-shortcode"
+msgid "NO CODE REQUIRED"
+msgstr "Ingen Bonuskod Behövs"
+
+#: includes/shortcodes/class-single-offer-shortcode.php:120
+msgctxt "campaign-shortcode"
+msgid "Offer Terms"
+msgstr "Regler och Villkor"
+
+#: includes/shortcodes/class-single-offer-shortcode.php:71
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:165
+msgctxt "campaign-shortcode"
+msgid "Our Score"
+msgstr "Vår poäng"
+
+#: includes/shortcodes/class-campaign-shortcode.php:177
+#: includes/shortcodes/class-single-offer-shortcode.php:157
+msgctxt "campaign-shortcode"
+msgid "Owner"
+msgstr "Ägare"
+
+#: includes/shortcodes/class-campaign-shortcode.php:119
+#: includes/shortcodes/class-single-offer-shortcode.php:111
+msgctxt "campaign-shortcode"
+msgid "Regulated By"
+msgstr "Licens"
+
+#: includes/shortcodes/class-campaign-shortcode.php:426
+#: includes/shortcodes/class-single-offer-shortcode.php:298
+msgctxt "campaign-shortcode"
+msgid "Review"
+msgstr "Recensera"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-no-empty-show-shortcode.php:79
+msgctxt "campaign-shortcode"
+msgid "Show All (%number%+)"
+msgstr "Visa fler erbjudanden"
+
+#: includes/shortcodes/class-single-offer-shortcode.php:38
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:123
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:110
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-shortcode.php:63
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:82
+msgctxt "campaign-shortcode"
+msgid "Use bonus code"
+msgstr "Använd bonuskod"
+
+#: includes/shortcodes/class-campaign-shortcode.php:170
+#: includes/shortcodes/class-single-offer-shortcode.php:150
+msgctxt "campaign-shortcode"
+msgid "Website"
+msgstr "Hemsida"
+
+#: includes/shortcodes/class-brand-comparison-table-shortcode.php:99
+msgctxt "comparison-table-shortcode"
+msgid "Rating"
+msgstr "Betyg"
+
+#: includes/shortcodes/class-brand-comparison-table-shortcode.php:181
+msgctxt "comparison-table-shortcode"
+msgid "Select Bookmaker"
+msgstr "Välj en bookmaker"
+
+#: includes/shortcodes/class-brand-comparison-table-shortcode.php:52
+msgctxt "comparison-table-shortcode"
+msgid "Visit Now"
+msgstr "Hämta Bonus"
+
+#: public/class-brand-management-public.php:118
+msgctxt "likes-ajax-handler"
+msgid "Incorrect request."
+msgstr ""
+
+#: public/class-brand-management-public.php:131
+#: public/class-brand-management-public.php:194
+#, fuzzy
+#| msgid "You have already voted"
+msgctxt "likes-ajax-handler"
+msgid "You have already voted."
+msgstr "Du har redan röstat"
+
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:101
+msgctxt "popup-offers-shortcode"
+msgid " Review"
+msgstr "Recensera"
+
+#: includes/shortcodes/class-recommended-offers-widget-shortcode.php:65
+msgctxt "recommended-offers-shortcode"
+msgid " Review"
+msgstr "Recensera"
+
+#: includes/shortcodes/class-sidebar-shortcode.php:89
+msgctxt "sidebar-shortcode"
+msgid "See Details"
+msgstr "Läs mer"

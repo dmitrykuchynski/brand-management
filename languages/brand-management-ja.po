@@ -1,0 +1,308 @@
+# Copyright (C) 2022
+# This file is distributed under the same license as the Brand Management plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Brand Management 2.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/brand-management\n"
+"Last-Translator: Alkesh Gupta\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-01-13T10:41:59+03:00\n"
+"PO-Revision-Date: 2023-01-30 11:49+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: brand-management\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1"
+
+#. Plugin Name of the plugin
+msgid "Brand Management"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Brand Management plugin which you can add and manage brand via shortcode or "
+"filter. The Brand Management plugin requires active <a href='https://www."
+"advancedcustomfields.com/' target='_blank'>Advanced Custom Fields Pro</a>."
+msgstr ""
+
+#: includes/shortcodes/class-brand-shortcode.php:38
+msgctxt "brand-shortcode"
+msgid "Claim Offer"
+msgstr "ボーナス申請"
+
+#: includes/shortcodes/class-brand-shortcode.php:51
+#: includes/shortcodes/class-brand-shortcode.php:53
+#| msgid "Codes Claimed"
+msgctxt "brand-shortcode"
+msgid "Codes claimed"
+msgstr "請求項1コード"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:242
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:244
+msgctxt "campaign-full-width-shortcode"
+msgid "Codes claimed"
+msgstr "請求項1コード"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:262
+msgctxt "campaign-full-width-shortcode"
+msgid "Copied"
+msgstr "コピー完了"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:271
+#| msgid "All"
+msgctxt "campaign-full-width-shortcode"
+msgid "Copy"
+msgstr "コピー"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:84
+msgctxt "campaign-full-width-shortcode"
+msgid "Date Posted"
+msgstr "投稿日"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:130
+msgctxt "campaign-full-width-shortcode"
+msgid "h"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:128
+msgctxt "campaign-full-width-shortcode"
+msgid "m"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:278
+msgctxt "campaign-full-width-shortcode"
+msgid "NO CODE REQUIRED"
+msgstr "コード不要"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:196
+msgctxt "campaign-full-width-shortcode"
+msgid "Review"
+msgstr "レビュー"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:229
+msgctxt "campaign-full-width-shortcode"
+msgid "Show % more offers +"
+msgstr "さらに%件表示 +"
+
+#: includes/shortcodes/class-campaign-shortcode.php:869
+msgctxt "campaign-management"
+msgid "Best Rated"
+msgstr "最高の評価"
+
+#: includes/shortcodes/class-campaign-shortcode.php:286
+msgctxt "campaign-management"
+msgid "Close Learn More"
+msgstr "詳細を閉じる"
+
+#: includes/shortcodes/class-campaign-shortcode.php:285
+msgctxt "campaign-management"
+msgid "Learn More"
+msgstr "詳細情報"
+
+#: includes/shortcodes/class-campaign-shortcode.php:870
+msgctxt "campaign-management"
+msgid "Newest"
+msgstr "最新の"
+
+#: includes/shortcodes/class-campaign-shortcode.php:868
+msgctxt "campaign-management"
+msgid "Sort By"
+msgstr "ソート基準"
+
+#: includes/shortcodes/class-campaign-shortcode.php:619
+#: includes/shortcodes/class-campaign-shortcode.php:641
+msgctxt "campaign-shortcode"
+msgid "All"
+msgstr "すべて"
+
+#: includes/shortcodes/class-campaign-shortcode.php:698
+msgctxt "campaign-shortcode"
+msgid "Claim Bonus"
+msgstr "ボーナス申請"
+
+#: includes/shortcodes/class-campaign-shortcode.php:183
+msgctxt "campaign-shortcode"
+msgid "Close Learn More"
+msgstr "詳細を閉じる"
+
+#: includes/shortcodes/class-campaign-shortcode.php:786
+#: includes/shortcodes/class-campaign-shortcode.php:788
+msgctxt "campaign-shortcode"
+msgid "Codes claimed"
+msgstr "請求項1コード"
+
+#: includes/shortcodes/class-campaign-shortcode.php:738
+msgctxt "campaign-shortcode"
+msgid "Copied"
+msgstr "コピー完了"
+
+#: includes/shortcodes/class-campaign-shortcode.php:746
+msgctxt "campaign-shortcode"
+msgid "Copy"
+msgstr "コピー"
+
+#: includes/shortcodes/class-campaign-shortcode.php:386
+#: includes/shortcodes/class-campaign-shortcode.php:394
+msgctxt "campaign-shortcode"
+msgid "Deposit Method"
+msgstr "入金方法"
+
+#: includes/shortcodes/class-campaign-shortcode.php:467
+msgctxt "campaign-shortcode"
+msgid "Founded"
+msgstr "設立"
+
+#: includes/shortcodes/class-campaign-shortcode.php:436
+#: includes/shortcodes/class-campaign-shortcode.php:445
+msgctxt "campaign-shortcode"
+msgid "Gallery"
+msgstr "ギャラリー"
+
+#: includes/shortcodes/class-campaign-shortcode.php:474
+msgctxt "campaign-shortcode"
+msgid "Headquarters"
+msgstr "本社"
+
+#: includes/shortcodes/class-campaign-shortcode.php:182
+msgctxt "campaign-shortcode"
+msgid "Learn More"
+msgstr "詳細情報"
+
+#: includes/shortcodes/class-campaign-shortcode.php:411
+#: includes/shortcodes/class-campaign-shortcode.php:413
+msgctxt "campaign-shortcode"
+msgid "License No."
+msgstr "ライセンス番号"
+
+#: includes/shortcodes/class-campaign-shortcode.php:371
+msgctxt "campaign-shortcode"
+msgid "Min Deposit"
+msgstr "最低入金額"
+
+#: includes/shortcodes/class-campaign-shortcode.php:613
+#| msgid "More Filter"
+msgctxt "campaign-shortcode"
+msgid "More Filters"
+msgstr "その他のフィルター"
+
+#: includes/shortcodes/class-campaign-shortcode.php:752
+msgctxt "campaign-shortcode"
+msgid "NO CODE REQUIRED"
+msgstr "コード不要"
+
+#: includes/shortcodes/class-campaign-shortcode.php:460
+msgctxt "campaign-shortcode"
+msgid "Owner"
+msgstr "所有者"
+
+#: includes/shortcodes/class-campaign-shortcode.php:400
+msgctxt "campaign-shortcode"
+msgid "Regulated By"
+msgstr "規制対象"
+
+#: includes/shortcodes/class-campaign-shortcode.php:720
+msgctxt "campaign-shortcode"
+msgid "Review"
+msgstr "レビュー"
+
+#: includes/shortcodes/class-campaign-shortcode.php:199
+msgctxt "campaign-shortcode"
+msgid "Show %number% More Offers"
+msgstr "さらに%number%件表示"
+
+#: includes/shortcodes/class-campaign-shortcode.php:758
+msgctxt "campaign-shortcode"
+msgid "Use bonus code"
+msgstr "ボーナス申請"
+
+#: includes/shortcodes/class-campaign-shortcode.php:453
+msgctxt "campaign-shortcode"
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: includes/shortcodes/class-campaign-shortcode.php:421
+msgctxt "campaign-shortcode-details-section"
+msgid "Learn More"
+msgstr "詳細情報"
+
+#: includes/shortcodes/class-campaign-shortcode.php:102
+msgctxt "campaign-shortcode-show-all"
+msgid "Claim Offer"
+msgstr "ボーナス申請"
+
+#: includes/shortcodes/class-campaign-shortcode.php:109
+msgctxt "campaign-shortcode-show-all"
+msgid "Show All (%number%+)"
+msgstr "すべて表示する (%number%+)"
+
+#: includes/shortcodes/class-brand-comparison-table-shortcode.php:44
+#: includes/shortcodes/class-brand-comparison-table-shortcode.php:98
+msgctxt "comparison-table-shortcode"
+msgid "Rating"
+msgstr "評価"
+
+#: includes/shortcodes/class-brand-comparison-table-shortcode.php:218
+msgctxt "comparison-table-shortcode"
+msgid "Select Bookmaker"
+msgstr "ブックメーカーを選択"
+
+#: includes/shortcodes/class-brand-comparison-table-shortcode.php:36
+msgctxt "comparison-table-shortcode"
+msgid "Visit Now"
+msgstr "ボーナス申請"
+
+#: public/class-brand-management-public.php:77
+msgctxt "likes-ajax-handler"
+msgid "Incorrect request."
+msgstr "リクエストが正しくありません。"
+
+#: public/class-brand-management-public.php:90
+#: public/class-brand-management-public.php:156
+#| msgid "You have already voted"
+msgctxt "likes-ajax-handler"
+msgid "You have already voted."
+msgstr "すでに投票済みです"
+
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:100
+msgctxt "popup-offers-shortcode"
+msgid " Review"
+msgstr "レビュー"
+
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:127
+msgctxt "popup-offers-shortcode"
+msgid "Claim Bonus"
+msgstr "ボーナス申請"
+
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:131
+msgctxt "popup-offers-shortcode"
+msgid "Copied"
+msgstr "コピー完了"
+
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:132
+msgctxt "popup-offers-shortcode"
+msgid "Copy"
+msgstr "コピー"
+
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:115
+msgctxt "popup-offers-shortcode"
+msgid "NO CODE REQUIRED"
+msgstr "コード不要"
+
+#: includes/shortcodes/class-recommended-offers-widget-shortcode.php:65
+#: includes/shortcodes/class-sidebar-shortcode.php:87
+msgctxt "recommended-offers-shortcode"
+msgid " Review"
+msgstr "レビュー"
+
+#: includes/shortcodes/class-sidebar-shortcode.php:108
+msgctxt "sidebar-shortcode"
+msgid "Claim Bonus"
+msgstr "ボーナス申請"
+
+#: includes/shortcodes/class-sidebar-shortcode.php:116
+msgctxt "sidebar-shortcode"
+msgid "Visit Site"
+msgstr "ボーナス申請"

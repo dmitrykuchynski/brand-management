@@ -1,0 +1,15 @@
+<div class="campaign-compact-table__wrapper {{ EXTRA_CLASSES }}" {{ CAMPAIGN_ATTS }}>
+    <div class="campaign-compact-table__title">
+        {{ TABLE_TITLE }}
+    </div>
+
+    {{ FILTERS_SECTION }}
+
+    <table class="campaign-compact-table do-not-wrap">
+        <tbody class="campaign-compact-table__offers-wrapper" data-offers-count="{{ OFFERS_COUNT }}">
+            {{ OFFERS_LIST }}
+        </tbody>
+    </table>
+
+    {{ SHOW_MORE_BTN }}
+</div>

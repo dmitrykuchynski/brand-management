@@ -1,0 +1,1642 @@
+.campaign-shortcode-table {
+    margin-bottom: 50px;
+}
+
+.campaign-shortcode_title-section h2 {
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+.campaign-shortcode_title-section h2:after {
+    content: none;
+}
+
+.campaign__table-title-and-disclaimer {
+    display: grid;
+    margin-bottom: 25px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "toc toc"
+        "title disclaimer";
+    column-gap: 25px;
+}
+
+.campaign__table-title-and-disclaimer h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    grid-area: title;
+}
+
+.campaign__disclaimer {
+    position: relative;
+    align-self: end;
+    width: fit-content;
+    margin-left: auto;
+    grid-area: disclaimer;
+}
+
+.disclaimer-only > .campaign__disclaimer {
+    margin-left: 0;
+    grid-area: title;
+}
+
+.campaign__disclaimer-btn {
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 38px;
+    padding: 0 8px 0 32px;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='16' viewBox='0 0 17 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_10591_37933)'%3E%3Cpath d='M8.50065 14.6668C12.1825 14.6668 15.1673 11.6821 15.1673 8.00016C15.1673 4.31826 12.1825 1.3335 8.50065 1.3335C4.81875 1.3335 1.83398 4.31826 1.83398 8.00016C1.83398 11.6821 4.81875 14.6668 8.50065 14.6668Z' stroke='%231C2642' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M8.5 10.6667V8' stroke='%231C2642' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M8.5 5.3335H8.50667' stroke='%231C2642' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_10591_37933'%3E%3Crect width='16' height='16' fill='white' transform='translate(0.5)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: left 8px top 11px;
+}
+
+.campaign__disclaimer-btn:hover ~ .campaign__disclaimer-tip {
+    display: block;
+}
+
+.campaign__disclaimer-tip {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    z-index: 10;
+    top: 48px;
+    left: 50%;
+    display: none;
+    width: max-content;
+    max-width: 300px;
+    padding: 12px 16px;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    background: #060606;
+}
+
+.campaign__disclaimer-tip:before {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    content: '';
+    border: 8px solid transparent;
+    border-bottom-color: #060606;
+}
+
+.campaign__table-title-and-disclaimer #toc_container {
+    grid-area: toc;
+}
+
+@media only screen and (max-width: 991px) {
+    .campaign__table-title-and-disclaimer {
+        align-items: flex-start;
+        margin-bottom: 12px;
+        column-gap: 12px;
+    }
+
+    .campaign__disclaimer {
+        align-self: start;
+    }
+
+    .disclaimer-only > .campaign__disclaimer {
+        margin-left: 0;
+    }
+
+    .campaign__disclaimer-btn {
+        font-size: 12px;
+        line-height: 18px;
+        height: 34px;
+        padding: 0 8px 0 28px;
+        background-position: left 8px top 9px;
+    }
+
+    .campaign__disclaimer-tip {
+        right: 0;
+        left: unset;
+        max-width: calc(100vw / 2);
+        transform: translateX(0);
+    }
+
+    .campaign__disclaimer-tip:before {
+        right: 9px;
+        left: unset;
+        margin-left: 0;
+    }
+
+    .disclaimer-only .campaign__disclaimer-tip {
+        left: 0;
+        transform: translateX(0);
+    }
+
+    .disclaimer-only .campaign__disclaimer-tip:before {
+        right: unset;
+        left: 9px;
+        margin-left: 0;
+    }
+}
+
+.campaign-shortcode-table_filter-section-wrapper {
+    margin-bottom: 24px;
+}
+
+.campaign-shortcode-table_filter-section {
+    display: flex;
+}
+
+.campaign-shortcode-table_filter-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 0 !important;
+}
+
+.sortable .campaign-shortcode-table_filter-list {
+    margin: 0 0 0 12px !important;
+    padding-left: 12px;
+    border-left: 1px solid #e8e8e8;
+}
+
+.campaign-shortcode-table_filter-list-item {
+    border: 1px solid #E8E8E8;
+    border-radius: 35px;
+    margin: 0;
+    padding: 7px 12px;
+    line-height: 21px;
+    display: block;
+    height: 35px;
+    color: #1c2642;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+    list-style-type: none;
+}
+
+.campaign-shortcode-table_filter-list-item.loading {
+    background-color: rgb(1 76 107 / 70%);
+    color: #fff;
+}
+
+.campaign-shortcode-table_filter-list-item.desktop-hidden {
+    display: none;
+}
+
+.campaign-shortcode-table_filter-more-btn {
+    padding-right: 40px;
+    border-color: #1c2642;
+    background: url("data:image/svg+xml,%3Csvg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.19583 4.218H3.59783V0.707999H5.61383V4.218H9.03383V6.18H5.61383V9.708H3.59783V6.18H0.19583V4.218Z' fill='%231C2642'/%3E%3C/svg%3E%0A") right 16px center no-repeat;
+}
+
+.campaign-shortcode-table_filter-more-btn:hover {
+    background-color: #F0F3F7;
+}
+
+.campaign-shortcode-table_filter-list-item.active_brand_filter {
+    background-color: #014C6B;
+    color: #fff;
+}
+
+.campaign-shortcode-table_sort-desktop-select {
+    position: relative;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.campaign-shortcode_desktop-select-window {
+    min-width: 118px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 35px;
+    padding-left: 12px;
+    padding-right: 25px;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.campaign-shortcode_desktop-select-dropdown {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #afafaf;
+    border-radius: 4px;
+    background-color: #fff;
+    top: 41px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.campaign-shortcode-table .desktop-select-item {
+    min-height: 45px;
+    padding: 12px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1c2642;
+    cursor: pointer;
+}
+
+.campaign-shortcode-table .desktop-select-item:hover {
+    background-color: #f4f4f4;
+}
+
+.campaign-shortcode-table_sort-mobile-select, .campaign-shortcode_tags_select {
+    display: none;
+    font-weight: 700;
+    color: #fff;
+    outline: none;
+    border-radius: 35px;
+    padding-left: 12px;
+    padding-right: 25px;
+    border: none;
+    appearance: none;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 18px;
+    height: 30px;
+    min-width: 99px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.campaign-shortcode_tags_select {
+    display: initial;
+    background: #014C6B url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:v='https://vecta.io/nano' width='12' height='12' fill='%23fff'%3E%3Cpath d='M2.854 4.972l2.983-3.616c.085-.103.243-.103.329 0l2.983 3.616c.114.138.016.348-.164.348H3.018c-.18 0-.279-.209-.164-.348z'/%3E%3Cpath d='M2.977 5.095l.218-.266.548-.664.71-.86.717-.868.556-.674.233-.282c.003-.005.03-.029.016-.019s.036-.015.013-.007c-.015.006.045 0 .005 0 .035 0-.023-.001.012 0 .002 0 .027.008.007.001s.007.003.006.003.023.016.007.003l.016.019.017.021.117.143.488.592.686.832.729.885.606.735.319.388.016.02c.001 0-.029-.038-.014-.017a.1.1 0 0 0 .012.019c-.002-.002-.007-.028-.003-.01.001.006.003.013.006.02.008.027.005-.022-.001.006-.001.005-.005.026 0 .002s-.002.006-.003.008l-.014.022c.003-.006.009-.023.007-.01s-.019.013-.022.015c.01-.007.023-.009.003-.003-.029.009.022.002-.01.001h-.065-.51-.879-1.1-1.158H4.21h-.799-.382c-.015 0-.013-.001-.021 0-.022-.017-.012-.002-.007.002-.016-.027-.01-.009-.007-.003l-.02-.034c.001.002.016.027.006.012-.002-.01-.001-.019-.002-.024.001.003-.009.031-.002.014.002-.007.015-.042.006-.024s.017-.023.021-.028c.058-.074.012-.195-.063-.238-.089-.052-.181-.013-.238.063-.095.124-.095.313-.005.44.077.107.189.166.322.169h.096.577.943 1.143 1.18 1.036.731c.116 0 .267.02.38-.02.157-.056.271-.207.265-.376-.003-.099-.043-.179-.103-.253l-.089-.108-.459-.556-.693-.84-.747-.905-.631-.764-.341-.413c-.109-.132-.289-.189-.452-.122a.47.47 0 0 0-.185.151l-.39.474-.656.795-.753.912-.668.81-.414.501-.058.07c-.059.072-.071.175 0 .246.062.059.186.071.246-.002zm-.125 1.93l2.983 3.616c.085.103.243.103.329 0l2.983-3.616c.114-.138.016-.348-.164-.348H3.016c-.18 0-.279.209-.164.348z'/%3E%3Cpath d='M2.73 7.148l.228.275.569.69.732.887.724.876.544.659c.101.123.203.289.364.339s.319-.016.42-.138l.125-.152.513-.622.712-.864.739-.896.596-.722.272-.33a.4.4 0 0 0 .102-.272c-.007-.169-.124-.324-.29-.365-.053-.013-.105-.012-.159-.012h-.524-.909-1.128-1.179-1.066-.775c-.107 0-.214-.003-.321 0-.134.003-.249.065-.324.175a.38.38 0 0 0 .009.435c.057.074.15.114.238.063.073-.043.121-.164.063-.238-.008-.012-.015-.026-.024-.036.002.002.007.028.003.01-.001-.006-.003-.013-.006-.02-.008-.027-.005.022.001-.006.001-.005.005-.026 0-.002s.002-.006.003-.008l.014-.022c-.003.006-.009.023-.007.01s.019-.013.022-.015c-.01.007-.023.009-.003.003.029-.009-.022-.002.01-.001h.148.618.948H5.86h1.149 1.008.711.193.048.029c-.039.001.017.008 0 .001-.027-.01.031.021.007.003s.026.028.006.005c-.015-.017.007.015.01.02.002.013-.001-.022 0-.001 0 .012-.001.02-.002.026s-.01.022-.001.005-.003.001-.003.003-.023.024.001 0c.064-.063.012-.014.009-.012s-.012.015-.017.022l-.116.14-.487.59-.69.837-.729.885-.606.735-.319.388-.016.02c-.007.008-.014.015-.022.023.02-.019-.003.001-.015.007.027-.013-.001-.002-.014 0 .002 0 .03-.004.01-.004-.027 0 .029.002.002.002-.007 0-.015-.004-.021-.006.002 0 .027.012.007.003-.007-.003-.013-.007-.02-.012.003.002.019.017.006.004-.006-.006-.012-.012-.016-.019l-.069-.083-.419-.508-.659-.799-.735-.892-.648-.786-.398-.483-.055-.066c-.06-.073-.185-.062-.246 0-.073.072-.062.174-.001.247z'/%3E%3C/svg%3E") right 10px center no-repeat;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.campaign-shortcode-table_sort-desktop-select ~ .campaign-shortcode_tags_select {
+    margin-left: 20px;
+}
+
+.campaign-list-item_key-features {
+    grid-area: key-features;
+}
+
+.campaign-shortcode-table ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.campaign-shortcode_title-section > span {
+    margin-left: auto;
+    padding: 8.5px 8px 8.5px 32px;
+    background: url("../images/top-icon.svg") left center no-repeat;
+    border: 1px solid #E8E8E8;
+    background-position: 9.33px;
+    border-radius: 4px;
+    max-width: 106px;
+    max-height: 38px;
+}
+
+.campaign-shortcode-table .topoferbookmaker_sec {
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.campaign-list-item {
+    padding: 20px;
+    margin: 12px auto;
+    width: 100%;
+    box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns: 130px 1fr 100px 14% 195px;
+    grid-template-rows: auto;
+    gap: 10px 24px;
+    position: relative;
+    grid-template-areas:
+    "top-picker top-picker top-picker top-picker top-picker"
+    "logo key-features scores tooltip coupon"
+    "voting bottom-text bottom-text bottom-text  more-btn";
+}
+
+.campaign-list-item.brand_table_custom_cl {
+    border: 4px solid #ffcb3f;
+    padding: 16px;
+}
+
+.campaign-list-item .toppike-out {
+    grid-area: top-picker;
+    display: flex;
+}
+
+.campaign-list-item .toppike-out .top-pick {
+    position: relative;
+    top: -4px;
+    left: -26px;
+    padding: 0 8px 0 13px;
+    border-radius: 4px 0 0 4px;
+    box-shadow: 0 4px 6px rgb(63 211 187 / 25%);
+    background: #FFCB3F;
+    font-family: var(--bm-font-family);
+    font-weight: var(--bm-font-weight);
+    font-size: 10px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #1C2642;
+}
+
+.campaign-list-item .toppike-out .top-pick::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 23px;
+    right: -10px;
+    top: 0;
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='10' height='23' viewBox='0 0 10 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.548065 0H-145C-146.105 0 -147 0.89543 -147 2V21C-147 22.1046 -146.105 23 -145 23H7.13272C8.52396 23 9.49017 21.6148 9.00963 20.3092L5.58333 11L2.44972 1.38053C2.18152 0.557214 1.41396 0 0.548065 0Z' fill='%23FFCB3F'/%3E%3C/svg%3E%0A");
+}
+
+.campaign-list-item .toppike-out .brand_boun_claimed {
+    margin-left: auto;
+}
+
+.campaign-list-item .toppike-out .brand_boun_claimed span {
+    padding-left: 15px;
+    background: url("../images/fire-icon.svg") left center no-repeat;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.campaign-list-item_logo {
+    grid-area: logo;
+    position: relative;
+}
+
+.campaign-list-item_logo img {
+    width: 130px;
+    height: 62.4px;
+    object-fit: cover;
+}
+
+.campaign-list-item_key-features > p {
+    font-weight: var(--bm-font-weight);
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-bottom: 10.5px;
+    font-family: var(--bm-font-family);
+    color: #1C2642;
+}
+
+.campaign-list-item_bonus-code-tooltip {
+    grid-area: coupon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: 28px;
+    background: #E1F4E7;
+    border: 1px solid #C7EED4;
+    border-radius: 4px;
+    padding: 8px 12.5px 8px 12.5px;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 120%;
+    position: absolute;
+    right: calc(100% + 16px);
+    top: 5px;
+}
+
+.campaign-list-item_bonus-code-tooltip::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #C7EED4;
+}
+
+.campaign-list-item_bonus-code-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: transparent transparent transparent #E1F4E7;
+}
+
+.campaign-shortcode-table .no_country_code_left .empty-coupon-code {
+    padding: 8px;
+    height: 28px;
+    color: #1C2642;
+    font-size: 10px;
+    line-height: 120%;
+    text-align: center;
+    background: #F5F4FF;
+    border: 1px solid #D5DEF7;
+    border-radius: 4px;
+    position: absolute;
+    right: calc(100% + 16px);
+    top: 5px;
+    width: auto;
+    min-width: 145px;
+    text-transform: uppercase;
+}
+
+.campaign-list-item_key-features ul li {
+    padding-left: 22px;
+    margin: 0;
+    background: url(../images/tick-black.svg) left 5px no-repeat;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.rtl .campaign-list-item_key-features ul li {
+    padding-left: 0;
+    background: url(../images/tick-green.svg) right center no-repeat;
+    padding-right: 22px;
+}
+
+.campaign-list-item_scores {
+    grid-area: scores;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.campaign_list_item__score_text {
+    font-size: 26px;
+    font-weight: var(--bm-font-weight);
+    line-height: 33px;
+    font-family: var(--bm-font-family);
+}
+
+.campaign-list-item_scores .star_rating_img,
+.campaign-shortcode-table.no-full-width .campaign-list-item_scores .star_rating_img {
+    margin: 5px 0 0 0;
+    width: 85px;
+}
+
+.campaign-list-item_scores .read_review_url {
+    padding-top: 9px;
+}
+
+.campaign-list-item_scores .read_review_url a {
+    color: #1C2642;
+    font-size: 14px;
+}
+
+.campaign-list-item_coupon {
+    grid-area: coupon;
+    position: relative;
+}
+
+.campaign-shortcode-table .country_code_left {
+    grid-area: coupon;
+    position: relative;
+}
+
+.campaign-list-item_coupon .country_code_left {
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+
+.campaign-list-item_coupon .country_code_left .coupon_code {
+    padding-left: 15px;
+    text-align: center;
+    width: 85%;
+    height: 40px;
+    line-height: 38px;
+    border: 1px dashed var(--bm-cta-button-background);
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    font-size: 12px;
+    letter-spacing: 0.16em;
+}
+
+.rtl .campaign-list-item_coupon .country_code_left .coupon_code,
+.rtl .campaign-list-item_coupon .country_code_left .copiedtext {
+    padding-left: unset;
+    padding-right: 40px;
+    text-align: right;
+    border-radius: 0 40px 40px 0;
+}
+
+.rtl .campaign-list-item_coupon.copyedtextcustom .country_code_left input {
+    display: none;
+}
+
+.rtl .campaign-list-item_coupon .country_code_right {
+    border-radius: 16px 0 0 16px;
+    right: initial;
+    left: 0;
+}
+
+.rtl .campaign-list-item_coupon .tooltip-inner-adv {
+    right: initial;
+    left: -10px;
+}
+
+.campaign-list-item_coupon .country_code_left .copiedtext {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #f4f4f4 url("../images/copy-check.svg") 10px center no-repeat;
+    padding: 0 33px;
+    text-transform: uppercase;
+    color: #888;
+    display: none;
+    text-align: left;
+    opacity: 1;
+    transform: none;
+    border: 1px dashed #1C2642;
+    height: 40px;
+    font-size: 12px;
+    line-height: 38px;
+}
+
+.campaign-list-item_coupon .country_code_right {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #F0F3F7;
+    border-radius: 0 16px 16px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campaign-list-item_coupon.copyedtextcustom .copiedtext {
+    display: block;
+}
+
+.campaign-list-item_coupon.copyedtextcustom .country_code_right {
+    display: none;
+}
+
+.copyedtextcustom input {
+    width: 100% !important;
+    border-radius: 40px;
+    border: 1px dashed #1C2642 !important;
+}
+
+.campaign-list-item_coupon .coupon_code:hover {
+    border: 1px dashed #1C2642 !important;
+}
+
+.copyedtextcustom .copiedtext {
+    background: #ffffff !important;
+    width: 100% !important;
+    border-radius: 40px !important;
+    color: #1C2642 !important;
+    text-align: center !important;
+}
+
+.copyedtextcustom .copiedtext svg {
+    margin: 0 5px;
+}
+
+@media (hover: hover) {
+    .show-more-campaign-list-items:hover {
+        background: #F0F3F7;
+    }
+}
+
+.campaign-list-item_cta-btn {
+    grid-area: coupon;
+    background: var(--bm-cta-button-background);
+    box-shadow: 0 10px 36px rgb(60 179 113 / 13%);
+    border-radius: 44px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    position: relative;
+    font-family: var(--bm-font-family);
+    margin-top: 48px;
+}
+
+.campaign-list-item_cta-btn:hover {
+    color: #fff;
+    background: var(--bm-cta-button-hover-background);
+    text-decoration: none;
+}
+
+.campaign-list-item_cta-btn.no-coupon {
+    grid-area: coupon;
+    margin-top: 0;
+}
+
+.campaign-list-item_cta-btn.coupon_code_disabled {
+    margin-top: 0;
+}
+
+.campaign-list-item_more-btns > div {
+    grid-area: cta-btn;
+    border-radius: 44px;
+    font-size: 14px;
+    color: #1c2642;
+    display: block;
+    background: transparent;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-right: 17px;
+    text-align: right;
+    position: relative;
+}
+
+.campaign-list-item_open-more-btn {
+    position: relative;
+    text-transform: capitalize;
+}
+
+.campaign-list-item_more-btns > div:after {
+    content: "";
+    width: 9px;
+    height: 5px;
+    background: url("../images/offer-down.svg") no-repeat;
+    position: absolute;
+    top: calc(50% - 2px);
+    margin-left: 8px;
+}
+
+.campaign-list-item_close-more-btn:after {
+    transform: rotate(180deg);
+}
+
+.campaign-list-item_more-btns {
+    grid-area: more-btn;
+    max-width: 145px;
+    margin-left: auto;
+    position: relative;
+}
+
+.campaign-list-item > .cell_bottom {
+    grid-area: bottom-text;
+    margin-left: -50px;
+    margin-right: -70px;
+}
+
+.campaign-list-item > .cell_bottom.has-terms-tooltip {
+    height: unset;
+    overflow: visible;
+}
+
+.campaign__offer-terms,
+.campaign-list-item .cell_bottom {
+    font-size: 10px;
+    line-height: 11px;
+    color: #777777;
+    height: 34px;
+    overflow: hidden;
+    position: relative;
+}
+
+@media screen and (min-width: 992px) {
+    .campaign-table__terms-tooltip {
+        font-size: 12px;
+        line-height: 1.5;
+        position: absolute;
+        z-index: 1000;
+        top: 44px;
+        left: calc(50% - 210px);
+        display: none;
+        width: 420px;
+        padding: 16px;
+        text-align: center;
+        color: #E3E2E2;
+        border-radius: 5px;
+        background: #000;
+    }
+
+    .campaign-table__terms-tooltip:before {
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -8px;
+        content: '';
+        border-width: 8px;
+        border-style: solid;
+        border-color: transparent transparent #060606 transparent;
+    }
+}
+
+.campaign-list-item .cell_bottom a {
+    color: #888;
+}
+
+.campaign-list-item .metadata-section {
+    grid-area: metadata;
+    margin-top: 6px;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.campaign-list-item .metadata-section.no_term_offer {
+    display: none;
+}
+
+.campaign-list-item .metadata-section_1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.campaign-list-item .metadata-section label {
+    display: block;
+    margin-bottom: 7px;
+    font-family: var(--bm-font-family);
+    font-weight: var(--bm-font-weight);
+    line-height: 23px;
+}
+
+.campaign-list-item .offer_term_section2 label {
+    margin-bottom: 9px;
+}
+
+.campaign-list-item .brand_gallery_outer label {
+    margin-bottom: 13px;
+}
+
+.campaign-list-item .metadata-section_4 label {
+    margin-bottom: 4px;
+}
+
+.campaign-list-item .metadata-min-deposit {
+    padding-right: 32px;
+}
+
+.campaign-list-item .metadata-deposit-method {
+    padding-right: 32px;
+}
+
+.campaign-list-item .metadata-deposit-method ul {
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.campaign-list-item .metadata-deposit-method li {
+    margin-right: 20px;
+    position: relative;
+    padding-bottom: 0 !important;
+}
+
+.campaign-list-item .metadata-deposit-method li label {
+    margin-bottom: 0;
+    line-height: 17px;
+}
+
+.campaign-list-item .metadata-deposit-method .hover-tip {
+    display: none;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 12px 16px;
+    background: #060606;
+    border-radius: 4px;
+    color: #fff;
+    position: absolute;
+    width: max-content;
+    top: 38px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.campaign-list-item .metadata-deposit-method .hover-tip:before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #060606 transparent;
+}
+
+.campaign-list-item .metadata-deposit-method li:hover .hover-tip {
+    display: block;
+}
+
+.metadata-deposit-method img {
+    width: auto;
+    height: 17px;
+    object-fit: contain;
+}
+
+.campaign-list-item .metadata-regulated {
+    min-width: 200px;
+    padding-right: 32px;
+}
+
+.campaign-list-item .metadata_license {
+    padding-right: 32px;
+}
+
+.campaign-list-item .metadata_license a,
+.campaign-list-item .metadata_license a:hover {
+    color: #2E364E;
+    text-decoration: underline;
+}
+
+.campaign-list-item .metadata-section_1 div:last-child {
+    padding-right: 0;
+}
+
+.campaign-list-item .brand_term_description {
+    background: #F0F3F7;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #2e364e;
+    padding: 22px 20px;
+}
+
+.campaign-list-item .brand_term_description p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.campaign-list-item .brand_term_description p:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.campaign-list-item .brand_term_description p:not(:first-child) {
+    margin-top: 5px;
+}
+
+.campaign-list-item .brand_term_description ul {
+    list-style: disc inside;
+}
+
+.campaign-list-item .metadata-section_3 {
+    max-height: 200px;
+}
+
+.campaign-list-item .metadata-section_3 .slick-dots {
+    display: none !important;
+}
+
+.campaign-list-item .metadata-section_3 .slick-slide img {
+    width: 240px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.campaign-list-item .metadata-section_5:empty {
+    display: none;
+}
+
+.campaign-list-item .metadata-section_4 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 21px 125px 21px 20px;
+    justify-content: space-between;
+    border-radius: 6px;
+    background: #F0F3F7;
+}
+
+.campaign-list-item .metadata-section_5 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: fit-content;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1C2642;
+    border: 1px solid #1C2642;
+    border-radius: 40px;
+    padding: 0 26px;
+    position: relative;
+}
+
+.campaign-list-item .metadata-section_5 a:hover {
+    background: #F0F3F7;
+    text-decoration: none;
+}
+
+.campaign-list-item .metadata-section_5 a svg {
+    margin-left: 10px;
+}
+
+.show-more-campaign-list-items {
+    padding: 9px 24px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: var(--bm-font-weight);
+    width: fit-content;
+    min-width: 220px;
+    margin: 24px auto 0 auto;
+    border: 1px solid #1C2642;
+    color: #1C2642;
+    border-radius: 42px;
+    text-align: center;
+    font-family: var(--bm-font-family);
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.show-more-campaign-list-items.loading {
+    background: #F0F3F7;
+    border-color: #F0F3F7;
+}
+
+.show-more-campaign-list-items .plus {
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.campaign-list-item_key-features.mobile {
+    display: none;
+}
+
+.review-gallery-slider-wrapper a {
+    margin: 0 5px;
+    position: relative;
+    left: -5px;
+}
+
+.review-gallery-slider-wrapper .slick-track {
+    height: 155px;
+}
+
+.campaign-list-item_open-more-btn.hidden {
+    display: none !important;
+}
+
+.campaign__voting_section {
+    grid-area: voting;
+    display: flex;
+    height: 16px;
+    position: relative;
+}
+
+.campaign__voting_section__btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.campaign__voting_section .like,
+.campaign__voting_section .dislike {
+    transition: all 0.3s;
+    height: 16px;
+}
+
+.campaign__voting_section .dislike svg {
+    transition: all 0.3s;
+}
+
+.campaign__voting_section svg {
+    width: 16px;
+    height: 16px;
+    vertical-align: top;
+}
+
+.campaign__voting_section__text {
+    font-size: 10px;
+    font-weight: 700;
+    color: #888888;
+    margin-left: 4px;
+}
+
+.campaign__voting_section .likes-value {
+    margin-right: 16px;
+}
+
+.campaign__voting_section__btn.active svg path {
+    stroke: none;
+    fill: #888888;
+}
+
+.campaign__updated_date_wrapper {
+    grid-area: logo;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 74.4px;
+}
+
+.betoffers-box-three .campaign__updated_date_wrapper {
+    grid-area: updated;
+    display: flex;
+    align-items: center;
+}
+
+.campaign__updated_date {
+    display: flex;
+    align-items: center;
+}
+
+.campaign__updated_date svg {
+    width: 12px;
+    height: 12px;
+}
+
+.campaign__updated_date_text {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 700;
+    color: #888888;
+    margin-left: 4px;
+}
+
+.ajax-notify {
+    display: none;
+    position: absolute;
+    background: #fff;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 15px 32px rgb(0 0 0 / 8%);
+    font-size: 10px;
+}
+
+.slider-item_likes-section .ajax-notify {
+    top: -33px;
+}
+
+input:focus-visible {
+    outline: -webkit-focus-ring-color auto 1px !important;
+}
+
+.country_code_left input:focus-visible {
+    outline: none !important;
+}
+
+.campaign-list-item .metadata-section_1 > div:empty {
+    display: none;
+}
+
+.campaign-list-item_scores .read_review_url {
+    display: flex;
+    align-items: center;
+}
+
+.campaign-list-item_scores .read_review_url svg {
+    margin-left: 6px;
+    -webkit-transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+}
+
+.campaign-list-item_scores .read_review_url:hover svg {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+}
+
+.campaign-shortcode-table_offers-list {
+    counter-reset: heading;
+}
+
+.campaign-list-item_logo.bm-with-counter:before {
+    counter-increment: heading;
+    content: counter(heading);
+    background: #E1F4E7;
+    border: 2px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    text-align: center;
+    color: #1C2642;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -8px;
+    top: -8px;
+    border-radius: 50%;
+    padding-top: 2px;
+}
+
+.tooltip-inner-adv {
+    display: block;
+    font-size: 12px;
+    padding: 12px 16px;
+    top: 50px;
+    background: #060606;
+    border-radius: 4px;
+    color: white;
+    margin: 0 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: 99;
+    right: -25px;
+    width: 155px;
+    height: auto;
+    text-align: center;
+}
+
+h2 ~ span ~ .tooltip-inner-adv {
+    top: 72px;
+}
+
+.review-banner_brand-coupon .tooltip-inner-adv {
+    width: auto;
+    right: -23px;
+}
+
+.sidebar-review_brand-coupon .tooltip-inner-adv {
+    width: auto;
+    right: -23px;
+    top: 38px;
+}
+
+.slider-item_coupon-code .tooltip-inner-adv {
+    width: auto;
+    top: 43px;
+    right: -13px;
+}
+
+.slider-item_coupon-code svg:hover ~ .tooltip-inner-adv {
+    visibility: visible;
+}
+
+span:hover ~ .tooltip-inner-adv {
+    visibility: visible;
+}
+
+button:hover ~ .tooltip-inner-adv {
+    visibility: visible;
+}
+
+.tooltip-inner-adv:before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #060606 transparent;
+}
+
+.country_code_right:hover ~ .tooltip-inner-adv {
+    visibility: visible;
+}
+
+.campaign-list-item_coupon .tooltip-inner-adv {
+    width: auto;
+    right: -16px;
+    top: 50px;
+}
+
+/* ADAPT CAMPAIGN TO PAGE WITH SIDEBAR */
+
+.page-template-default .campaign-shortcode-table_offers-list,
+.campaign-shortcode-table.no-full-width .campaign-shortcode-table_offers-list {
+    position: relative;
+}
+
+.page-template-default .campaign-shortcode-table .topoferbookmaker_sec,
+.campaign-shortcode-table.no-full-width .topoferbookmaker_sec {
+    position: absolute;
+    left: 180px;
+    top: -48px;
+}
+
+.page-template-default .campaign-list-item_scores,
+.campaign-shortcode-table.no-full-width .campaign-list-item_scores {
+    flex-flow: row;
+    margin-left: -50px;
+}
+
+.page-template-default .campaign_list_item__score_text,
+.campaign-shortcode-table.no-full-width .campaign_list_item__score_text {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.page-template-default .campaign-list-item_scores .star_rating_img,
+.campaign-shortcode-table.no-full-width .campaign-list-item_scores .star_rating_img {
+    width: 88px;
+    margin: 0 0 0 6px;
+    align-items: center;
+}
+
+.page-template-default .campaign-list-item .metadata-section,
+.campaign-shortcode-table.no-full-width .campaign-list-item .metadata-section {
+    padding-left: 0;
+}
+
+.page-template-default .campaign-list-item .cell_bottom,
+.campaign-shortcode-table.no-full-width .campaign-list-item .cell_bottom {
+    margin: 0;
+    height: unset;
+}
+
+.page-template-default .campaign-list-item .no_country_code_left .empty-coupon-code,
+.campaign-shortcode-table.no-full-width .campaign-list-item .no_country_code_left .empty-coupon-code {
+    display: block;
+    margin: 0 auto;
+    position: initial;
+}
+
+.page-template-default .campaign-list-item_bonus-code-tooltip,
+.campaign-shortcode-table.no-full-width .campaign-list-item_bonus-code-tooltip {
+    display: none;
+}
+
+.page-template-default .campaign-list-item_cta-btn.no-coupon,
+.no-full-width .campaign-list-item_cta-btn.no-coupon {
+    margin-top: 40px;
+}
+
+.page-template-default .campaign-list-item_scores .read_review_url,
+.campaign-shortcode-table.no-full-width .campaign-list-item_scores .read_review_url {
+    padding-top: 0;
+    margin-left: 12px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (min-width: 992px) {
+    .page-template-default .campaign-list-item,
+    .campaign-shortcode-table.no-full-width .campaign-list-item {
+        grid-template-columns: 130px 1fr 195px;
+        grid-template-areas:
+    "top-picker top-picker top-picker"
+    "logo key-features coupon"
+    "voting scores more-btn"
+    "bottom-text bottom-text bottom-text";
+    }
+
+    .campaign-list-item.show_metadata_section {
+        grid-template-areas:
+    "top-picker top-picker top-picker top-picker top-picker"
+    "logo key-features scores tooltip coupon"
+    "metadata metadata metadata metadata metadata"
+    "voting bottom-text bottom-text bottom-text more-btn";
+    }
+
+    .page-template-default .campaign-list-item.show_metadata_section,
+    .campaign-shortcode-table.no-full-width .campaign-list-item.show_metadata_section {
+        grid-template-areas:
+    "top-picker top-picker top-picker"
+    "logo key-features coupon"
+    "voting scores more-btn"
+    "bottom-text bottom-text bottom-text"
+    "metadata metadata metadata";
+    }
+
+    .campaign-shortcode-table_offers-list .campaign-list-item:nth-child(-n+10) {
+        display: grid !important;
+    }
+
+    .campaign-list-item_scores .read_review_url {
+        margin: 0 -24px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    /* Required styles for full-width tables on the first screen. */
+    .campaign-full-width-shortcode {
+        display: flex;
+        flex-wrap: nowrap !important;
+        gap: 8px;
+        overflow: scroll;
+        scroll-behavior: smooth;
+        border-radius: 6px 0 0 6px;
+    }
+
+    .campaign-full-width-shortcode::-webkit-scrollbar {
+        display: none;
+    }
+
+    .campaign-fullwidth-shortcode_item {
+        width: 220px !important;
+        height: 326px !important;
+        background-color: #fff !important;
+        box-shadow: 0 12px 36px rgb(0 0 0 / 8%);
+        border-radius: 6px;
+        flex-shrink: 0;
+    }
+
+    .meta-class-for-slider-script {
+        width: unset;
+    }
+
+    .campaign-shortcode-table {
+        margin-bottom: 24px;
+    }
+
+    .campaign-shortcode-table_offers-list .campaign-list-item:nth-child(-n+5) {
+        display: grid !important;
+    }
+
+    .campaign-list-item .cell_bottom {
+        margin: 0;
+        height: unset;
+    }
+
+    .campaign-list-item_coupon .country_code_left .coupon_code {
+        border-radius: 24px;
+        padding-left: 12px;
+    }
+
+    .campaign-list-item_more-btns > div {
+        text-align: center;
+    }
+
+    .campaign-shortcode-table .no_country_code_left {
+        text-align: center;
+    }
+
+    .campaign-shortcode-table .no_country_code_left .empty-coupon-code {
+        position: inherit;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .campaign-list-item_more-btns {
+        grid-area: cta-btn !important;
+        margin-left: initial;
+        max-width: initial;
+    }
+
+    .campaign-list-item_cta-btn,
+    .page-template-default .campaign-list-item_cta-btn.no-coupon,
+    .campaign-shortcode-table.no-full-width .campaign-list-item_cta-btn {
+        grid-area: more-btn !important;
+        margin-top: 0;
+    }
+
+    .campaign-list-item_cta-btn.coupon_code_disabled {
+        margin-top: -16px;
+    }
+
+    .campaign-shortcode-table_filter-section-wrapper {
+        margin-bottom: 21px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .campaign-list-item_bonus-code-tooltip {
+        display: none;
+    }
+
+    .campaign-list-item_key-features li {
+        background: url(../images/tick-black.svg) no-repeat;
+        background-position-y: 6px;
+    }
+
+    .campaign-list-item_key-features > p {
+        display: none;
+    }
+
+    .campaign-list-item_key-features.mobile > p {
+        display: block;
+    }
+
+    .campaign-shortcode-table_filter-section {
+        overflow: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        position: relative;
+        width: calc(100% + 30px);
+        padding-left: 15px;
+        padding-right: 15px;
+        left: -15px;
+    }
+
+    .campaign-shortcode-table_filter-section::-webkit-scrollbar {
+        display: none;
+    }
+
+    .campaign-shortcode-table_filter-list {
+        flex-wrap: nowrap;
+    }
+
+    .sortable .campaign-shortcode-table_filter-list {
+        margin-left: 8px;
+        padding-left: 8px;
+    }
+
+    .campaign-shortcode-table_filter-list-item {
+        flex: 0 0 auto;
+        margin-bottom: 0;
+        font-size: 12px;
+        height: 30px;
+        line-height: 18px;
+        padding: 6px 8px;
+    }
+
+    .campaign-shortcode-table_filter-list-item.desktop-hidden {
+        display: initial;
+    }
+
+    .campaign-shortcode-table_filter-more-btn {
+        display: none;
+    }
+
+    .campaign-shortcode-table_sort-mobile-select {
+        display: initial;
+    }
+
+    .campaign-shortcode_tags_select {
+        font-size: 12px;
+        line-height: 18px;
+        height: 30px;
+    }
+
+    .campaign-shortcode-table_sort-desktop-select {
+        display: none;
+    }
+
+    .campaign-list-item_key-features.mobile {
+        display: block;
+        grid-area: title;
+    }
+
+    .campaign-list-item {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 8px 10px;
+        grid-template-areas:
+                "top-picker top-picker"
+                "logo scores"
+                "title title"
+                "coupon coupon"
+                "more-btn more-btn"
+                "key-features key-features"
+                "cta-btn cta-btn"
+                "bottom-text bottom-text"
+                "voting updated";
+        padding: 16px;
+    }
+
+    .campaign-list-item.show_metadata_section {
+        grid-template-areas:
+                "top-picker top-picker"
+                "logo scores"
+                "title title"
+                "coupon coupon"
+                "more-btn more-btn"
+                "key-features key-features"
+                "cta-btn cta-btn"
+                "metadata metadata"
+                "bottom-text bottom-text"
+                "voting updated";
+    }
+
+    .campaign-list-item_more-btns > div {
+        margin-right: 0;
+        height: 100%;
+    }
+
+    .campaign-list-item_logo img {
+        width: 92px;
+        height: 44px;
+        object-fit: contain;
+    }
+
+    .campaign-list-item .toppike-out {
+        padding-bottom: 6px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .campaign-list-item .toppike-out .brand_boun_claimed {
+        margin-left: 0;
+    }
+
+    .campaign-list-item_scores,
+    .page-template-default .campaign-list-item_scores,
+    .campaign-shortcode-table.no-full-width .campaign-list-item_scores {
+        flex-flow: row;
+        flex-wrap: wrap;
+        width: 120px;
+        margin-left: auto;
+        align-content: flex-start;
+        justify-content: flex-end;
+    }
+
+    .campaign-list-item_scores .read_review_url,
+    .page-template-default .campaign-list-item_scores .read_review_url,
+    .campaign-shortcode-table.no-full-width .campaign-list-item_scores .read_review_url {
+        margin-left: auto;
+        padding-top: 0;
+    }
+
+    .campaign-list-item_scores .read_review_url {
+        margin-left: -24px;
+    }
+
+    .campaign-list-item_scores .star_rating_img {
+        width: 82px;
+        height: 15px;
+        margin: 0 0 0 6px;
+    }
+
+    .campaign_list_item__score_text {
+        font-size: 16px !important;
+        line-height: 22px !important;
+        color: #1C2642 !important;
+    }
+
+    .campaign-list-item .metadata-section {
+        padding-left: 0;
+        gap: 8px;
+    }
+
+    .campaign-list-item .metadata-section_5 {
+        text-align: center;
+    }
+
+    .campaign-list-item .metadata-section_1 {
+        flex-flow: column;
+        gap: 15px;
+    }
+
+    .campaign-list-item_coupon .country_code_left {
+        height: 40px;
+    }
+
+    .campaign-list-item_coupon .country_code_right {
+        padding: 8px;
+    }
+
+    .campaign-list-item .metadata-section_4 {
+        display: block;
+        padding: 15px;
+    }
+
+    .campaign-list-item .metadata-section_4 div {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .campaign-list-item .metadata-section_4 label {
+        width: 50%;
+        min-width: 50%;
+    }
+
+    .campaign-list-item_more-btns > div {
+        line-height: 28px;
+    }
+
+    .show-more-campaign-list-items {
+        font-size: 14px;
+        margin: 24px auto;
+    }
+
+    .campaign-list-item.brand_table_custom_cl {
+        padding: 12px;
+    }
+
+    .campaign-list-item .toppike-out .top-pick {
+        left: -25px;
+    }
+
+    .campaign-list-item_coupon .country_code_left .coupon_code,
+    .campaign-list-item_coupon .country_code_left .copiedtext {
+        width: 100%;
+    }
+
+    .campaign-list-item .cell_bottom {
+        padding-bottom: 8px;
+        border-bottom: 1px solid #E0E0E0;
+    }
+
+    .campaign__updated_date_wrapper {
+        justify-content: flex-end;
+        grid-area: updated;
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .campaign__updated_date {
+        padding-top: 0;
+        float: right;
+    }
+
+    .tooltip-inner-adv {
+        display: none;
+    }
+
+    .page-template-default .campaign-list-item_coupon,
+    .campaign-shortcode-table.no-full-width .campaign-list-item_coupon {
+        width: auto;
+    }
+
+    .rtl .campaign-list-item_coupon .country_code_left .coupon_code {
+        border-radius: 40px;
+    }
+
+    .campaign-list-item .metadata-section_1 > div {
+        margin-right: 0;
+        padding-right: 0;
+    }
+}
+
+.custom-select-background {
+    background: #014C6B url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:v='https://vecta.io/nano' width='12' height='12' fill='%23fff'%3E%3Cpath d='M2.854 4.972l2.983-3.616c.085-.103.243-.103.329 0l2.983 3.616c.114.138.016.348-.164.348H3.018c-.18 0-.279-.209-.164-.348z'/%3E%3Cpath d='M2.977 5.095l.218-.266.548-.664.71-.86.717-.868.556-.674.233-.282c.003-.005.03-.029.016-.019s.036-.015.013-.007c-.015.006.045 0 .005 0 .035 0-.023-.001.012 0 .002 0 .027.008.007.001s.007.003.006.003.023.016.007.003l.016.019.017.021.117.143.488.592.686.832.729.885.606.735.319.388.016.02c.001 0-.029-.038-.014-.017a.1.1 0 0 0 .012.019c-.002-.002-.007-.028-.003-.01.001.006.003.013.006.02.008.027.005-.022-.001.006-.001.005-.005.026 0 .002s-.002.006-.003.008l-.014.022c.003-.006.009-.023.007-.01s-.019.013-.022.015c.01-.007.023-.009.003-.003-.029.009.022.002-.01.001h-.065-.51-.879-1.1-1.158H4.21h-.799-.382c-.015 0-.013-.001-.021 0-.022-.017-.012-.002-.007.002-.016-.027-.01-.009-.007-.003l-.02-.034c.001.002.016.027.006.012-.002-.01-.001-.019-.002-.024.001.003-.009.031-.002.014.002-.007.015-.042.006-.024s.017-.023.021-.028c.058-.074.012-.195-.063-.238-.089-.052-.181-.013-.238.063-.095.124-.095.313-.005.44.077.107.189.166.322.169h.096.577.943 1.143 1.18 1.036.731c.116 0 .267.02.38-.02.157-.056.271-.207.265-.376-.003-.099-.043-.179-.103-.253l-.089-.108-.459-.556-.693-.84-.747-.905-.631-.764-.341-.413c-.109-.132-.289-.189-.452-.122a.47.47 0 0 0-.185.151l-.39.474-.656.795-.753.912-.668.81-.414.501-.058.07c-.059.072-.071.175 0 .246.062.059.186.071.246-.002zm-.125 1.93l2.983 3.616c.085.103.243.103.329 0l2.983-3.616c.114-.138.016-.348-.164-.348H3.016c-.18 0-.279.209-.164.348z'/%3E%3Cpath d='M2.73 7.148l.228.275.569.69.732.887.724.876.544.659c.101.123.203.289.364.339s.319-.016.42-.138l.125-.152.513-.622.712-.864.739-.896.596-.722.272-.33a.4.4 0 0 0 .102-.272c-.007-.169-.124-.324-.29-.365-.053-.013-.105-.012-.159-.012h-.524-.909-1.128-1.179-1.066-.775c-.107 0-.214-.003-.321 0-.134.003-.249.065-.324.175a.38.38 0 0 0 .009.435c.057.074.15.114.238.063.073-.043.121-.164.063-.238-.008-.012-.015-.026-.024-.036.002.002.007.028.003.01-.001-.006-.003-.013-.006-.02-.008-.027-.005.022.001-.006.001-.005.005-.026 0-.002s.002-.006.003-.008l.014-.022c-.003.006-.009.023-.007.01s.019-.013.022-.015c-.01.007-.023.009-.003.003.029-.009-.022-.002.01-.001h.148.618.948H5.86h1.149 1.008.711.193.048.029c-.039.001.017.008 0 .001-.027-.01.031.021.007.003s.026.028.006.005c-.015-.017.007.015.01.02.002.013-.001-.022 0-.001 0 .012-.001.02-.002.026s-.01.022-.001.005-.003.001-.003.003-.023.024.001 0c.064-.063.012-.014.009-.012s-.012.015-.017.022l-.116.14-.487.59-.69.837-.729.885-.606.735-.319.388-.016.02c-.007.008-.014.015-.022.023.02-.019-.003.001-.015.007.027-.013-.001-.002-.014 0 .002 0 .03-.004.01-.004-.027 0 .029.002.002.002-.007 0-.015-.004-.021-.006.002 0 .027.012.007.003-.007-.003-.013-.007-.02-.012.003.002.019.017.006.004-.006-.006-.012-.012-.016-.019l-.069-.083-.419-.508-.659-.799-.735-.892-.648-.786-.398-.483-.055-.066c-.06-.073-.185-.062-.246 0-.073.072-.062.174-.001.247z'/%3E%3C/svg%3E") right 10px center no-repeat;
+}

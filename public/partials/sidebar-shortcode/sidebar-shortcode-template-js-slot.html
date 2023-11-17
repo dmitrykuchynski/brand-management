@@ -1,0 +1,12 @@
+<script>
+    jQuery(document).ready(function () {
+        if (window.matchMedia('(max-width: 767px)').matches) {
+            jQuery('.brand_mobile_slide').slick({
+                dots: false,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 1,
+            });
+        }
+    });
+</script>

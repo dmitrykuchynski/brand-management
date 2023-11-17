@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'BMFont';
+    src: url('../fonts/BMFont.eot');
+    src: url('../fonts/BMFont.eot') format('embedded-opentype'),
+    url('../fonts/BMFont.woff2') format('woff2'),
+    url('../fonts/BMFont.woff') format('woff'),
+    url('../fonts/BMFont.ttf') format('truetype'),
+    url('../fonts/BMFont.svg#BMFont') format('svg');
+    font-display: swap;
+}
+
+:root {
+    --bm-font-family: 'BMFont', sans-serif;
+    --bm-font-weight: 700;
+    --bm-cta-button-background: #3CB371;
+    --bm-cta-button-hover-background: #3CA36A;
+}

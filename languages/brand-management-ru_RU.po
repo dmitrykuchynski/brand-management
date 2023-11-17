@@ -1,0 +1,489 @@
+# Copyright (C) 2022
+# This file is distributed under the same license as the Brand Management plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Brand Management 2.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/brand-management\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-01-13T10:41:59+03:00\n"
+"PO-Revision-Date: 2022-05-12 12:29+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: brand-management\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3"
+
+#: includes/shortcodes/class-bet-offer-shortcode.php:97
+msgctxt "bet-offer-shortcode"
+msgid "300+ Free Bets, Reviews &amp; Promo Codes"
+msgstr ""
+
+#: includes/shortcodes/class-bet-offer-shortcode.php:86
+msgctxt "bet-offer-shortcode"
+msgid "Claim Offer"
+msgstr ""
+
+#: includes/shortcodes/class-bet-offer-shortcode.php:102
+msgctxt "bet-offer-shortcode"
+msgid "Offers"
+msgstr ""
+
+#. Plugin Name of the plugin
+msgid "Brand Management"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Brand Management plugin which you can add and manage brand via shortcode or "
+"filter. The Brand Management plugin requires active <a href='https://www."
+"advancedcustomfields.com/' target='_blank'>Advanced Custom Fields Pro</a>."
+msgstr ""
+
+#: includes/shortcodes/class-brand-shortcode.php:161
+#: includes/shortcodes/class-brand-shortcode.php:342
+msgctxt "brand-shortcode"
+msgid "Claim Offer"
+msgstr ""
+
+#: includes/shortcodes/class-brand-shortcode.php:73
+#: includes/shortcodes/class-brand-shortcode.php:75
+msgctxt "brand-shortcode"
+msgid "Codes Claimed"
+msgstr "выданных промокодов"
+
+#: includes/shortcodes/class-brand-shortcode.php:103
+msgctxt "brand-shortcode"
+msgid "Copied"
+msgstr "Скопировано"
+
+#: includes/shortcodes/class-brand-shortcode.php:212
+msgctxt "brand-shortcode"
+msgid "Deposit Method"
+msgstr "Метод депозита"
+
+#: includes/shortcodes/class-brand-shortcode.php:256
+msgctxt "brand-shortcode"
+msgid "Founded"
+msgstr "Год основания"
+
+#: includes/shortcodes/class-brand-shortcode.php:234
+msgctxt "brand-shortcode"
+msgid "Gallery"
+msgstr "Галерея"
+
+#: includes/shortcodes/class-brand-shortcode.php:263
+msgctxt "brand-shortcode"
+msgid "Headquarters"
+msgstr "Головной офис"
+
+#: includes/shortcodes/class-brand-shortcode.php:194
+msgctxt "brand-shortcode"
+msgid "Min Deposit"
+msgstr "Минимальный депозит"
+
+#: includes/shortcodes/class-brand-shortcode.php:162
+msgctxt "brand-shortcode"
+msgid "More Information"
+msgstr ""
+
+#: includes/shortcodes/class-brand-shortcode.php:249
+msgctxt "brand-shortcode"
+msgid "Owner"
+msgstr "Владелец"
+
+#: includes/shortcodes/class-brand-shortcode.php:128
+msgctxt "brand-shortcode"
+msgid "Review"
+msgstr "Обзор"
+
+#: includes/shortcodes/class-brand-shortcode.php:163
+msgctxt "brand-shortcode"
+msgid "Show Less"
+msgstr ""
+
+#: includes/shortcodes/class-brand-shortcode.php:242
+msgctxt "brand-shortcode"
+msgid "Website"
+msgstr "Вебсайт"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:98
+msgctxt "campaign-full-width-shortcode"
+msgid "All"
+msgstr "Все"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:103
+msgctxt "campaign-full-width-shortcode"
+msgid "Best Rated"
+msgstr "Лучший рейтинг"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:102
+msgctxt "campaign-full-width-shortcode"
+msgid "Choose"
+msgstr "Выбрать"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:27
+msgctxt "campaign-full-width-shortcode"
+msgid "Claim Bonus"
+msgstr "Получить бонус"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:100
+msgctxt "campaign-full-width-shortcode"
+msgid "Close Filter"
+msgstr "Убрать фильтр"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:255
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:257
+msgctxt "campaign-full-width-shortcode"
+msgid "Codes claimed"
+msgstr "выданных промокодов"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:245
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:127
+msgctxt "campaign-full-width-shortcode"
+msgid "Copied"
+msgstr "Скопировано"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:325
+msgctxt "campaign-full-width-shortcode"
+msgid "Date Posted"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:44
+msgctxt "campaign-full-width-shortcode"
+msgid "Disclosure"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:298
+msgctxt "campaign-full-width-shortcode"
+msgid "h"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:296
+msgctxt "campaign-full-width-shortcode"
+msgid "m"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:99
+msgctxt "campaign-full-width-shortcode"
+msgid "More Filter"
+msgstr "Другие фильтры"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:104
+msgctxt "campaign-full-width-shortcode"
+msgid "Newest"
+msgstr "Новейшие"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:322
+msgctxt "campaign-full-width-shortcode"
+msgid "Our score"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:230
+msgctxt "campaign-full-width-shortcode"
+msgid "Review"
+msgstr "Обзор"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:340
+msgctxt "campaign-full-width-shortcode"
+msgid "Show % more offers +"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:101
+msgctxt "campaign-full-width-shortcode"
+msgid "Sort By"
+msgstr "Отфильтровать по"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:24
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:24
+msgctxt "campaign-management"
+msgid "All"
+msgstr "Все"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:29
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:29
+msgctxt "campaign-management"
+msgid "Best Rated"
+msgstr "Лучший рейтинг"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:28
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:28
+msgctxt "campaign-management"
+msgid "Choose"
+msgstr "Выбрать"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:26
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:26
+msgctxt "campaign-management"
+msgid "Close Filter"
+msgstr "Убрать фильтр"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:153
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-shortcode.php:102
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:128
+msgctxt "campaign-management"
+msgid "Close Learn More"
+msgstr "Закрыть"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:152
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-shortcode.php:101
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:127
+msgctxt "campaign-management"
+msgid "Learn More"
+msgstr "Узнать подробнее"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:25
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:25
+msgctxt "campaign-management"
+msgid "More Filter"
+msgstr "Другие фильтры"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:30
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:30
+msgctxt "campaign-management"
+msgid "Newest"
+msgstr "Новейшие"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:151
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-shortcode.php:100
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:126
+msgctxt "campaign-management"
+msgid "Our Score"
+msgstr ""
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:165
+msgctxt "campaign-management"
+msgid "Show more offers"
+msgstr ""
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:27
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:27
+msgctxt "campaign-management"
+msgid "Sort By"
+msgstr "Отфильтровать по"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-shortcode.php:64
+#: includes/shortcodes/partials/class-campaign-no-id-shortcode.php:126
+#: includes/shortcodes/partials/class-campaign-no-id-true-filter-shortcode.php:107
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:85
+msgctxt "campaign-management"
+msgid "Use bonus code"
+msgstr "Использовать промокод"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:44
+msgctxt "campaign-shortcode"
+msgid "All"
+msgstr "Все"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:55
+msgctxt "campaign-shortcode"
+msgid "Best Rated"
+msgstr "Лучший рейтинг"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:54
+msgctxt "campaign-shortcode"
+msgid "Choose"
+msgstr "Выбрать"
+
+#: includes/shortcodes/class-campaign-shortcode.php:370
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:152
+#: includes/shortcodes/class-single-offer-shortcode.php:46
+msgctxt "campaign-shortcode"
+msgid "Claim Bonus"
+msgstr "Получить бонус"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-no-empty-show-shortcode.php:72
+msgctxt "campaign-shortcode"
+msgid "Claim Offer"
+msgstr ""
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:52
+msgctxt "campaign-shortcode"
+msgid "Close Filter"
+msgstr "Убрать фильтр"
+
+#: includes/shortcodes/class-single-offer-shortcode.php:53
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:170
+msgctxt "campaign-shortcode"
+msgid "Close Learn More"
+msgstr "Закрыть"
+
+#: includes/shortcodes/class-campaign-shortcode.php:436
+#: includes/shortcodes/class-campaign-shortcode.php:438
+#: includes/shortcodes/class-single-offer-shortcode.php:307
+#: includes/shortcodes/class-single-offer-shortcode.php:309
+msgctxt "campaign-shortcode"
+msgid "Codes claimed"
+msgstr "выданных промокодов"
+
+#: includes/shortcodes/class-campaign-shortcode.php:423
+#: includes/shortcodes/class-single-offer-shortcode.php:293
+msgctxt "campaign-shortcode"
+msgid "Copied"
+msgstr "Скопировано"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:247
+#: includes/shortcodes/class-campaign-shortcode.php:423
+msgctxt "campaign-shortcode"
+msgid "Copy"
+msgstr "Копировать"
+
+#: includes/shortcodes/class-campaign-shortcode.php:107
+#: includes/shortcodes/class-campaign-shortcode.php:113
+#: includes/shortcodes/class-single-offer-shortcode.php:81
+msgctxt "campaign-shortcode"
+msgid "Deposit Method"
+msgstr "Метод депозита"
+
+#: includes/shortcodes/class-campaign-shortcode.php:172
+#: includes/shortcodes/class-single-offer-shortcode.php:140
+msgctxt "campaign-shortcode"
+msgid "Founded"
+msgstr "Год основания"
+
+#: includes/shortcodes/class-campaign-shortcode.php:142
+#: includes/shortcodes/class-campaign-shortcode.php:150
+#: includes/shortcodes/class-single-offer-shortcode.php:118
+msgctxt "campaign-shortcode"
+msgid "Gallery"
+msgstr "Галерея"
+
+#: includes/shortcodes/class-campaign-shortcode.php:179
+#: includes/shortcodes/class-single-offer-shortcode.php:147
+msgctxt "campaign-shortcode"
+msgid "Headquarters"
+msgstr "Головной офис"
+
+#: includes/shortcodes/class-campaign-shortcode.php:128
+#: includes/shortcodes/class-single-offer-shortcode.php:52
+#: includes/shortcodes/class-single-offer-shortcode.php:96
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:169
+msgctxt "campaign-shortcode"
+msgid "Learn More"
+msgstr "Узнать подробнее"
+
+#: includes/shortcodes/class-campaign-shortcode.php:94
+#: includes/shortcodes/class-single-offer-shortcode.php:63
+msgctxt "campaign-shortcode"
+msgid "Min Deposit"
+msgstr "Минимальный депозит"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:145
+#: includes/shortcodes/class-campaign-shortcode.php:252
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:51
+msgctxt "campaign-shortcode"
+msgid "More Filter"
+msgstr "Другие фильтры"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:56
+msgctxt "campaign-shortcode"
+msgid "Newest"
+msgstr "Новейшие"
+
+#: includes/shortcodes/class-campaign-full-width-shortcode.php:249
+#: includes/shortcodes/class-campaign-shortcode.php:425
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:131
+#: includes/shortcodes/class-single-offer-shortcode.php:295
+msgctxt "campaign-shortcode"
+msgid "NO CODE REQUIRED"
+msgstr "Промокод не требуется"
+
+#: includes/shortcodes/class-campaign-shortcode.php:119
+msgctxt "campaign-shortcode"
+msgid "Offer Terms"
+msgstr "Условия предложения"
+
+#: includes/shortcodes/class-single-offer-shortcode.php:51
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:168
+msgctxt "campaign-shortcode"
+msgid "Our Score"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-shortcode.php:165
+#: includes/shortcodes/class-single-offer-shortcode.php:133
+msgctxt "campaign-shortcode"
+msgid "Owner"
+msgstr "Владелец"
+
+#: includes/shortcodes/class-campaign-shortcode.php:119
+#: includes/shortcodes/class-single-offer-shortcode.php:87
+msgctxt "campaign-shortcode"
+msgid "Regulated By"
+msgstr "Регулируется"
+
+#: includes/shortcodes/class-campaign-shortcode.php:414
+#: includes/shortcodes/class-single-offer-shortcode.php:283
+msgctxt "campaign-shortcode"
+msgid "Review"
+msgstr "Обзор"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-no-empty-show-shortcode.php:79
+msgctxt "campaign-shortcode"
+msgid "Show All (%number%+)"
+msgstr ""
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:53
+msgctxt "campaign-shortcode"
+msgid "Sort By"
+msgstr "Отфильтровать по"
+
+#: includes/shortcodes/partials/class-campaign-no-empty-id-shortcode.php:126
+#: includes/shortcodes/partials/class-campaign-no-empty-id-true-filter-shortcode.php:107
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-shortcode.php:64
+#: includes/shortcodes/partials/class-campaign-no-empty-reviews-true-filter-shortcode.php:85
+msgctxt "campaign-shortcode"
+msgid "Use bonus code"
+msgstr ""
+
+#: includes/shortcodes/class-campaign-shortcode.php:158
+#: includes/shortcodes/class-single-offer-shortcode.php:126
+msgctxt "campaign-shortcode"
+msgid "Website"
+msgstr "Вебсайт"
+
+#: includes/shortcodes/class-brand-comparison-table-shortcode.php:99
+msgctxt "comparison-table-shortcode"
+msgid "Rating"
+msgstr ""
+
+#: includes/shortcodes/class-brand-comparison-table-shortcode.php:181
+msgctxt "comparison-table-shortcode"
+msgid "Select Bookmaker"
+msgstr "Выберите букмекера"
+
+#: includes/shortcodes/class-brand-comparison-table-shortcode.php:52
+msgctxt "comparison-table-shortcode"
+msgid "Visit Now"
+msgstr ""
+
+#: public/class-brand-management-public.php:118
+msgctxt "likes-ajax-handler"
+msgid "Incorrect request."
+msgstr ""
+
+#: public/class-brand-management-public.php:131
+#: public/class-brand-management-public.php:194
+#, fuzzy
+#| msgid "You have already voted"
+msgctxt "likes-ajax-handler"
+msgid "You have already voted."
+msgstr "Вы уже проголосовали"
+
+#: includes/shortcodes/class-popup-non-affiliated-shortcode.php:101
+msgctxt "popup-offers-shortcode"
+msgid " Review"
+msgstr "Обзор"
+
+#: includes/shortcodes/class-recommended-offers-widget-shortcode.php:65
+msgctxt "recommended-offers-shortcode"
+msgid " Review"
+msgstr "Обзор"
+
+#: includes/shortcodes/class-sidebar-shortcode.php:89
+msgctxt "sidebar-shortcode"
+msgid "See Details"
+msgstr ""

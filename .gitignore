@@ -1,0 +1,6 @@
+/.idea
+/.phpcs.xml.dist
+/.phpunit.result.cache
+/composer.lock
+/vendor
+/wp-cli.phar

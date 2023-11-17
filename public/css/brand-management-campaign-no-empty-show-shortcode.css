@@ -1,0 +1,123 @@
+.campaign-shortcode-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.campaign-shortcode-grid-item {
+    background-color: #fff;
+    width: 24%;
+    margin-bottom: 15px;
+    box-shadow: 0 12px 36px rgb(0 0 0 / 8%);
+    border-radius: 6px;
+    padding: 16px;
+    text-decoration: none;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 84px 68px 1fr;
+    grid-template-rows: 1fr 16px;
+    gap: 4px 4px;
+    grid-template-areas:
+    "logo title title"
+    "rating updated button";
+    align-content: stretch;
+}
+
+.campaign-shortcode-grid-item:hover {
+    transform: scale(1.05);
+}
+
+.campaign-shortcode-grid .logo-and-title-section {
+    grid-area: logo;
+}
+
+.campaign-shortcode-grid .logo-and-title-section img {
+    width: 84px;
+    height: 40px;
+    object-fit: contain;
+    float: left;
+}
+
+.campaign-shortcode-grid .campaign-shortcode_title-section {
+    grid-area: title;
+    margin-left: 12px;
+    align-items: baseline;
+}
+
+.campaign-shortcode-grid .campaign-shortcode_title-section p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1c2642;
+    text-align: left;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+
+.campaign-shortcode-grid .scores-section {
+    grid-area: rating;
+    color: #1c2642;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.campaign-shortcode-grid .scores-section samp {
+    font-weight: 700;
+    margin-right: 6px;
+}
+
+.campaign-shortcode-grid .scores-section img {
+    width: 60px;
+}
+
+.campaign-shortcode-grid .campaign__updated_date_wrapper {
+    margin: 0 0 0 12px;
+}
+
+.campaign-shortcode-grid .campaign__updated_date {
+    padding-top: 0;
+    float: left;
+}
+
+.campaign-shortcode-grid .btn-section {
+    grid-area: button;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.campaign-shortcode-grid .btn-section span {
+    color: #1c2642;
+    font-size: 12px;
+}
+
+.campaign-shortcode-grid .show-more-grid-items {
+    width: 100%;
+}
+
+.campaign-shortcode-grid .show-more-grid-items button {
+    font-size: 13px;
+    padding: 10px 51px;
+    margin: 5px auto;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+    color: #d5def7;
+    border: 1px solid #014c6b;
+    border-radius: 44px;
+    background: none;
+}
+
+@media screen and (min-width: 992px) {
+    .campaign-shortcode-grid-item:not(:nth-child(4n+1)) {
+        margin-left: 1.3%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .campaign-shortcode-grid-item {
+        width: 100%;
+    }
+}

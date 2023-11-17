@@ -1,0 +1,43 @@
+<tr class="campaign-compact-table__offer {{ IS_NOT_FIRST_ITEM_CLASS }} {{ CATEGORIES_TAG_SLOT }} {{ OFFER_ID }}"
+    data-rated="{{ STAR_RATING_TEXT }}"
+    date-new="{{ UPDATE_DATE }}"
+    curentdate="{{ UPDATE_DATE }}"
+    data-id="{{ OFFER_ID }}"
+    {{ STYLE_DISPLAY_NONE }}
+    {{ META_DATA }}
+>
+    <td class="campaign-compact-table__offer-logo">
+        <a href="{{ UNIQUE_VISIT_LINK }}" {{ EXTERNAL_LINK_ATTRIBUTES }}>
+            <img src="{{ BRAND_LOGO_SRC }}" alt="{{ BRAND_NAME }} Logo" width="130" height="63"/>
+            <p class="campaign-compact-table__offer-brand-name">
+                {{ BRAND_NAME }}
+            </p>
+        </a>
+    </td>
+    <td class="campaign-compact-table__offer-description">
+        {{ OFFER_DESCRIPTION }}
+    </td>
+    <td class="campaign-compact-table__offer-key-features">
+        <div class="campaign-compact-table__offer-description">
+            {{ OFFER_DESCRIPTION }}
+        </div>
+
+        {{ KEY_FEATURES }}
+    </td>
+    <td class="campaign-compact-table__offer-rating">
+        <div class="campaign-compact-table__offer-rating-text">
+            {{ STAR_RATING_TEXT }}
+        </div>
+        {{ STAR_RATING_HTML }}
+        <a class="campaign-compact-table__offer-brand-name">
+            {{ BRAND_NAME }}
+        </a>
+    </td>
+    <td class="campaign-compact-table__offer-cta-button">
+        <a href="{{ UNIQUE_VISIT_LINK }}" {{ EXTERNAL_LINK_ATTRIBUTES }}>
+            {{ CTA_BUTTON_LABEL }}
+        </a>
+        {{ COUPON_CODE }}
+    </td>
+    {{ TERMS_AND_CONDITIONS }}
+</tr>

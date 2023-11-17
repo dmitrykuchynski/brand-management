@@ -1,0 +1,258 @@
+/**
+ * All of the CSS for your admin-specific functionality should be included in this file.
+ */
+
+.taxonomy-bm_campaign_management .term-description-wrap, .taxonomy-group .term-description-wrap, .taxonomy-keyword .term-description-wrap, .taxonomy-bm_campaign_management .column-description,
+.taxonomy-bm_campaign_management .column-posts, .taxonomy-bm_campaign_management .term-slug-wrap, .taxonomy-bm_popup_offers .term-slug-wrap, .taxonomy-bm_popup_offers .term-description-wrap, .taxonomy-bm_campaign_management .column-slug, .taxonomy-bm_campaign_management .editinline,
+.taxonomy-bm_campaign_management .row-actions .view, .taxonomy-bm_campaign_management #wp-admin-bar-view, .taxonomy-group .column-description, .taxonomy-group .column-posts,
+.taxonomy-group .term-slug-wrap, .taxonomy-group .column-slug, .taxonomy-group .editinline, .taxonomy-group .row-actions .view, .taxonomy-group #wp-admin-bar-view, .taxonomy-keyword .column-description,
+.taxonomy-keyword .column-posts, .taxonomy-keyword .term-slug-wrap, .taxonomy-keyword .column-slug, .taxonomy-keyword .editinline, .taxonomy-keyword .row-actions .view, .taxonomy-keyword #wp-admin-bar-view,
+.taxonomy-bm_campaign_management #wpseo_meta, .taxonomy-bm_comparison_tables #wpseo_meta, .taxonomy-bm_comparison_tables .bulkactions, .taxonomy-bm_comparison_tables .term-description-wrap,
+.taxonomy-bm_comparison_tables .term-slug-wrap {
+    display: none;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+}
+
+.switch .checked + .slider {
+    background-color: #2196f3 !important;
+}
+
+.switch .checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.switch .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.switch .slider.round {
+    border-radius: 34px;
+}
+
+.switch .slider.round:before {
+    border-radius: 50%;
+}
+
+.taxonomy-bm_comparison_tables #col-left {
+    width: 60%;
+}
+
+.taxonomy-bm_comparison_tables #col-right {
+    width: 40%;
+}
+
+.taxonomy-bm_comparison_tables #edittag {
+    max-width: 100%;
+}
+
+.field_group_parameters_for_comparison .inside {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.field_group_parameters_for_comparison .inside .acf-field-text {
+    width: 100%;
+}
+
+div[id^="acf-group_brand_parameters_for_comparison"] .inside,
+div[id^="acf-group_brand_sidebar_features"] .inside {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div[id^="acf-group_brand_parameters_for_comparison"] .inside .acf-field-text,
+div[id^="acf-group_brand_sidebar_features"] .inside .acf-field-text {
+    width: 100%;
+}
+
+.brand-management-notice {
+    margin-top: 10px;
+    margin-left: 180px;
+    font-weight: 500;
+    color: #673ab7;
+}
+
+.brand-management-notice > div {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    color: #4caf50;
+}
+
+.acf-field-offers-order-within-a-tag .acf-relationship .filters,
+.acf-field-offers-order-within-a-tag .acf-relationship .choices,
+.acf-field-offers-order-within-a-tag .acf-relationship .values li a,
+#acf-field_campaign_all_filter_tag_order .filters,
+#acf-field_campaign_all_filter_tag_order .choices,
+#acf-field_campaign_all_filter_tag_order .values li a {
+    display: none;
+}
+
+#acf-field_campaign_all_filter_tag_order .values {
+    width: 100%;
+}
+
+.acf-field-offers-order-within-a-tag .acf-relationship div.values {
+    width: 100%;
+    float: initial;
+}
+
+.tag-ordering-blocked .acf-field-offers-order-within-a-tag .acf-repeater,
+.tag-ordering-blocked #acf-field_campaign_all_filter_tag_order {
+    position: relative;
+}
+
+.tag-ordering-blocked .acf-field-offers-order-within-a-tag .acf-repeater::before,
+.tag-ordering-blocked #acf-field_campaign_all_filter_tag_order::before {
+    content: 'Please save the updates first';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #be6400;
+    z-index: 1;
+}
+
+.tag-ordering-blocked .acf-field-offers-order-within-a-tag .acf-button {
+    background-color: #f0f0f1;
+    color: #f0f0f1;
+    border-color: #f0f0f1;
+}
+
+/*restrict tag orderring while creating a new campaign (only when editing)*/
+#addtag .acf-field-offers-order-within-a-tag,
+#addtag .acf-field-campaign-all-filter-tag-order {
+    display: none !important;
+}
+
+#edittag .acf-field-offers-order-within-a-tag[hidden] + tr {
+    margin-top: 30px;
+}
+
+#edittag .acf-field-offers-order-within-a-tag[hidden] + tr > td > div {
+    position: relative;
+}
+
+#edittag .acf-field-offers-order-within-a-tag[hidden] + tr > td > div::before {
+    content: 'No filter tags applied';
+    position: absolute;
+    top: -27px;
+}
+
+#edittag .acf-field-offers-order-within-a-tag[hidden] + tr > td > div::after {
+    content: 'Filter Tags: Offer Order';
+    position: absolute;
+    top: -27px;
+    font-weight: bold;
+    left: -221px;
+}
+
+.ui-autocomplete {
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: none;
+}
+
+.ui-autocomplete li {
+    padding: 4px 0;
+}
+
+.loading_visit_links::after {
+    position: absolute;
+    top: 0;
+    left: 400px;
+    padding: 6px 8px;
+    color: #03a9f4;
+    content: 'Loading visit links...';
+}
+
+.acf-repeater .loading_visit_links::after {
+    top: 1px;
+    left: 4px;
+    background: #fff;
+    padding: 4px 8px;
+}
+
+.acf-repeater .loading_visit_links input::placeholder {
+    color: #fff;
+}
+
+.popup-csv-form__notice {
+    padding: 10px;
+    color: #0223bb;
+}
+
+.popup-csv-form__title {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.popup-csv-form__instructions {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.taxonomy-bm_regional_campaigns .row-actions > .inline,
+.taxonomy-bm_regional_campaigns .column-description,
+.taxonomy-bm_regional_campaigns .column-slug,
+.taxonomy-bm_regional_campaigns .column-posts,
+.taxonomy-bm_regional_campaigns .term-slug-wrap,
+.taxonomy-bm_regional_campaigns .term-description-wrap {
+    display: none;
+}
+
+.duplicate-campaign,
+.create-regional-campaign {
+    color: #2271b1;
+    cursor: pointer;
+}
+
+.duplicate-campaign:hover,
+.create-regional-campaign:hover {
+    color: #135E96;
+}
+
+.payment_method__admin_image {
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+}
